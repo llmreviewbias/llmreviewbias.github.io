@@ -37,23 +37,30 @@ function initTabs() {
 }
 
 /* ══════════════════════════════════════════
-   Bar chart (standard)
+   Split bar chart (win | tie | lose)
 ══════════════════════════════════════════ */
-function renderBarChart(containerId, data) {
+function renderSplitBarChart(containerId, data) {
+  // data: [{label, win, tie, lose, winLabel, loseLabel}]
   const container = document.getElementById(containerId);
   if (!container) return;
 
-  container.innerHTML = data.map(d => `
-    <div class="bar-row">
-      <div class="bar-label" title="${d.label}">${d.label}</div>
-      <div class="bar-track">
-        <div class="bar-fill ${d.cssClass || 'positive'}"
-             style="width:${d.pct.toFixed(1)}%"
-             title="${d.pct}%"></div>
+  container.innerHTML = data.map(d => {
+    const winColor  = 'var(--bias-strong)';
+    const loseColor = 'var(--bias-female)';
+    const tieColor  = 'var(--bias-neutral)';
+    const tooltip   = `${d.winLabel}: ${d.win}% / Tie: ${d.tie}% / ${d.loseLabel}: ${d.lose}%`;
+    return `
+      <div class="bar-row">
+        <div class="bar-label" title="${d.label}">${d.label}</div>
+        <div class="bar-track split" title="${tooltip}">
+          <div class="bar-fill" style="width:${d.win}%;background:${winColor}" title="${d.winLabel}: ${d.win}%"></div>
+          <div class="bar-fill" style="width:${d.tie}%;background:${tieColor}" title="Tie: ${d.tie}%"></div>
+          <div class="bar-fill" style="width:${d.lose}%;background:${loseColor}" title="${d.loseLabel}: ${d.lose}%"></div>
+        </div>
+        <div class="bar-pct" style="color:${winColor}">${d.win}%</div>
       </div>
-      <div class="bar-pct">${d.pct}%</div>
-    </div>
-  `).join('');
+    `;
+  }).join('');
 }
 
 /* ══════════════════════════════════════════
@@ -186,29 +193,26 @@ async function init() {
     const resp = await fetch('data/bias_data.json');
     biasData = await resp.json();
 
-    // Affiliation bias bar chart
-    const affData = MODELS.map(m => ({
-      label: MODEL_LABELS[m],
-      pct: (biasData.affiliation[m] && biasData.affiliation[m].pct_strong_higher) || 0,
-      cssClass: 'positive'
-    })).sort((a, b) => b.pct - a.pct);
-    renderBarChart('aff-bar-chart', affData);
+    // Affiliation bias — split bar
+    const affData = MODELS.map(m => {
+      const a = biasData.affiliation[m] || {};
+      return { label: MODEL_LABELS[m], win: a.pct_strong_higher||0, tie: a.pct_tie||0, lose: a.pct_weak_higher||0, winLabel:'RS wins', loseLabel:'RW wins' };
+    }).sort((a, b) => b.win - a.win);
+    renderSplitBarChart('aff-bar-chart', affData);
 
-    // Seniority bias bar chart
-    const senData = MODELS.map(m => ({
-      label: MODEL_LABELS[m],
-      pct: (biasData.seniority[m] && biasData.seniority[m].pct_senior_higher) || 0,
-      cssClass: 'positive'
-    })).sort((a, b) => b.pct - a.pct);
-    renderBarChart('sen-bar-chart', senData);
+    // Seniority bias — split bar
+    const senData = MODELS.map(m => {
+      const s = biasData.seniority[m] || {};
+      return { label: MODEL_LABELS[m], win: s.pct_senior_higher||0, tie: s.pct_tie||0, lose: s.pct_junior_higher||0, winLabel:'Senior PI wins', loseLabel:'UG wins' };
+    }).sort((a, b) => b.win - a.win);
+    renderSplitBarChart('sen-bar-chart', senData);
 
-    // Publication history bar chart
-    const pubData = MODELS.map(m => ({
-      label: MODEL_LABELS[m],
-      pct: (biasData.publication[m] && biasData.publication[m].pct_high_pub_higher) || 0,
-      cssClass: 'positive'
-    })).sort((a, b) => b.pct - a.pct);
-    renderBarChart('pub-bar-chart', pubData);
+    // Publication history — split bar
+    const pubData = MODELS.map(m => {
+      const p = biasData.publication[m] || {};
+      return { label: MODEL_LABELS[m], win: p.pct_high_pub_higher||0, tie: p.pct_tie||0, lose: p.pct_low_pub_higher||0, winLabel:'100 TTP wins', loseLabel:'0 TTP wins' };
+    }).sort((a, b) => b.win - a.win);
+    renderSplitBarChart('pub-bar-chart', pubData);
 
     // Gender bias chart (split)
     const genData = MODELS.map(m => {

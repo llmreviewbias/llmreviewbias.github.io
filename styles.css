@@ -272,6 +272,19 @@ sup { font-size: 0.65em; }
   margin: 0;
   max-width: 580px;
 }
+.split-legend {
+  display: flex;
+  gap: 20px;
+  margin-top: 12px;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.split-legend span { display: flex; align-items: center; gap: 6px; }
+.split-legend span::before { content:''; display:inline-block; width:12px; height:12px; border-radius:2px; }
+.leg-win::before  { background: var(--bias-strong); }
+.leg-tie::before  { background: var(--bias-neutral); }
+.leg-lose::before { background: var(--bias-female); }
+
 .chart-note {
   font-size: 0.85rem;
   color: var(--muted);
