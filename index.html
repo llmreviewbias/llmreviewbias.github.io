@@ -1,35 +1,52 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Justice in Judgment</title>
+    <meta charset="utf-8" />
     <meta
       name="description"
       content="Justice in Judgment: Unveiling (Hidden) Bias in LLM-assisted Peer Reviews."
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Justice in Judgment</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="landing">
-      <div class="landing__inner">
-        <p class="eyebrow">ACL '26 Findings</p>
-        <h1>Justice in Judgment</h1>
+    <section class="hero">
+      <div class="container">
+        <p class="venue">ACL '26 Findings</p>
+        <h1 class="title">Justice in Judgment</h1>
         <p class="subtitle">Unveiling (Hidden) Bias in LLM-assisted Peer Reviews</p>
 
-        <div class="actions">
-          <a href="https://arxiv.org/abs/2509.13400" target="_blank" rel="noreferrer">
-            Paper
+        <div class="button-row">
+          <a
+            class="action-button"
+            href="https://arxiv.org/abs/2509.13400"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span class="icon"><i class="fas fa-file-pdf"></i></span>
+            <span>Paper</span>
           </a>
           <a
+            class="action-button"
             href="https://github.com/ivaxi0s/llm-review-bias"
             target="_blank"
             rel="noreferrer"
           >
-            GitHub
+            <span class="icon"><i class="fab fa-github"></i></span>
+            <span>GitHub</span>
           </a>
         </div>
       </div>
-    </main>
+    </section>
   </body>
 </html>
