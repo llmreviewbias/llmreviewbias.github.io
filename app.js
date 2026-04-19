@@ -42,14 +42,13 @@ function initTabs() {
 function renderBarChart(containerId, data) {
   const container = document.getElementById(containerId);
   if (!container) return;
-  const max = Math.max(...data.map(d => d.pct), 30);
 
   container.innerHTML = data.map(d => `
     <div class="bar-row">
       <div class="bar-label" title="${d.label}">${d.label}</div>
       <div class="bar-track">
         <div class="bar-fill ${d.cssClass || 'positive'}"
-             style="width:${(d.pct / max * 100).toFixed(1)}%"
+             style="width:${d.pct.toFixed(1)}%"
              title="${d.pct}%"></div>
       </div>
       <div class="bar-pct">${d.pct}%</div>
@@ -67,7 +66,7 @@ function renderGenderChart(containerId, data) {
   container.innerHTML = data.map(d => {
     const mPct  = d.pct_male;
     const fPct  = d.pct_female;
-    const tiePct = Math.max(0, 100 - mPct - fPct);
+    const tiePct = Math.max(0, Math.round(100 - mPct - fPct));
     const isHeavierMale = mPct >= fPct;
     const winnerPct = Math.max(mPct, fPct);
     const winnerLabel = isHeavierMale ? '\u2642' : '\u2640';
