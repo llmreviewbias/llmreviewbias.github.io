@@ -53,6 +53,15 @@ sup { font-size: 0.65em; }
   color: var(--hero-text);
 }
 
+.paper-nickname {
+  margin: 0 0 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.55);
+}
+
 .venue-badge {
   display: inline-block;
   padding: 4px 14px;
