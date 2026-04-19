@@ -48,6 +48,9 @@ function renderSplitBarChart(containerId, data) {
     const winColor  = 'var(--bias-strong)';
     const loseColor = 'var(--bias-female)';
     const tieColor  = 'var(--bias-neutral)';
+    const net = Math.round((d.win - d.lose) * 10) / 10;
+    const netStr = (net >= 0 ? '+' : '') + net + '%';
+    const netColor = net >= 0 ? winColor : loseColor;
     const tooltip   = `${d.winLabel}: ${d.win}% / Tie: ${d.tie}% / ${d.loseLabel}: ${d.lose}%`;
     return `
       <div class="bar-row">
@@ -57,7 +60,7 @@ function renderSplitBarChart(containerId, data) {
           <div class="bar-fill" style="width:${d.tie}%;background:${tieColor}" title="Tie: ${d.tie}%"></div>
           <div class="bar-fill" style="width:${d.lose}%;background:${loseColor}" title="${d.loseLabel}: ${d.lose}%"></div>
         </div>
-        <div class="bar-pct" style="color:${winColor}">${d.win}%</div>
+        <div class="bar-pct" style="color:${netColor}" title="Net bias: ${netStr}">${netStr}</div>
       </div>
     `;
   }).join('');
@@ -74,10 +77,10 @@ function renderGenderChart(containerId, data) {
     const mPct  = d.pct_male;
     const fPct  = d.pct_female;
     const tiePct = Math.max(0, Math.round(100 - mPct - fPct));
-    const isHeavierMale = mPct >= fPct;
-    const winnerPct = Math.max(mPct, fPct);
-    const winnerLabel = isHeavierMale ? '\u2642' : '\u2640';
-    const winnerColor = isHeavierMale ? 'var(--bias-male)' : 'var(--bias-female)';
+    const net = Math.round((mPct - fPct) * 10) / 10;
+    const netStr = (net >= 0 ? '+' : '') + net + '%';
+    const netColor = net >= 0 ? 'var(--bias-male)' : 'var(--bias-female)';
+    const netLabel = net >= 0 ? '\u2642' : '\u2640';
     return `
       <div class="bar-row">
         <div class="bar-label" title="${d.label}">${d.label}</div>
@@ -87,7 +90,7 @@ function renderGenderChart(containerId, data) {
           <div class="bar-fill tie"    style="width:${tiePct}%"></div>
           <div class="bar-fill female" style="width:${fPct}%"></div>
         </div>
-        <div class="bar-pct" style="color:${winnerColor}">${winnerLabel} ${winnerPct}%</div>
+        <div class="bar-pct" style="color:${netColor}" title="Net bias: ${netLabel} ${netStr}">${netLabel} ${netStr}</div>
       </div>
     `;
   }).join('');
