@@ -101,10 +101,10 @@ function renderGenderChart(containerId, data) {
 ══════════════════════════════════════════ */
 function heatmapColor(pct) {
   const t = Math.min(pct / 80, 1);
-  const r = Math.round(219 + (67  - 219) * t);
-  const g = Math.round(228 + (97  - 228) * t);
-  const b = Math.round(255 + (238 - 255) * t);
-  return { bg: `rgb(${r},${g},${b})`, text: t > 0.5 ? '#ffffff' : '#1a1a2e' };
+  const r = Math.round(255 + (133 - 255) * t);
+  const g = Math.round(251 + (77  - 251) * t);
+  const b = Math.round(230 + (14  - 230) * t);
+  return { bg: `rgb(${r},${g},${b})`, text: t > 0.45 ? '#ffffff' : '#3d2000' };
 }
 
 function renderHeatmap(modelKey) {
@@ -161,12 +161,8 @@ function renderHeatmap(modelKey) {
 
 function initHeatmapControls() {
   const select = document.getElementById('heatmap-model-select');
-  const img    = document.getElementById('heatmap-img');
-  if (!select || !img) return;
-  select.addEventListener('change', () => {
-    img.src = 'images/heatmaps/' + select.value + '-1.png';
-    img.alt = 'Affiliation bias heatmap — ' + select.options[select.selectedIndex].text;
-  });
+  if (!select) return;
+  select.addEventListener('change', () => renderHeatmap(select.value));
 }
 
 /* ══════════════════════════════════════════
@@ -232,7 +228,7 @@ async function init() {
     });
     renderGenderChart('gen-bar-chart', genData);
 
-    // Heatmap is image-based; switching handled by initHeatmapControls()
+    renderHeatmap('gpt-4o-mini');
 
   } catch (err) {
     console.error('Failed to load bias data:', err);

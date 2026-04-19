@@ -394,6 +394,14 @@ sup { font-size: 0.65em; }
   border-radius: 6px;
 }
 
+.heatmap-table-container {
+  overflow-x: auto;
+  background: #fffdf5;
+  border: 1px solid #f0e0a0;
+  border-radius: var(--radius);
+  padding: 16px;
+}
+
 .heatmap-container {
   overflow-x: auto;
 }
