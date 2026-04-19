@@ -6,197 +6,30 @@
     <title>Justice in Judgment</title>
     <meta
       name="description"
-      content="A website companion for Justice in Judgment: Unveiling (Hidden) Bias in LLM-assisted Peer Reviews."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Sora:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
+      content="Justice in Judgment: Unveiling (Hidden) Bias in LLM-assisted Peer Reviews."
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="page-shell">
-      <header class="hero">
-        <div class="hero__backdrop"></div>
-        <p class="hero__eyebrow">ACL '26 Findings</p>
+    <main class="landing">
+      <div class="landing__inner">
+        <p class="eyebrow">ACL '26 Findings</p>
         <h1>Justice in Judgment</h1>
-        <p class="hero__subtitle">
-          Unveiling (Hidden) Bias in LLM-assisted Peer Reviews
-        </p>
-        <p class="hero__summary">
-          A public-facing companion site for the paper, rebuilt from the released
-          experiment configs, main tables, appendix artifacts, and heatmap assets.
-        </p>
+        <p class="subtitle">Unveiling (Hidden) Bias in LLM-assisted Peer Reviews</p>
 
-        <div class="hero__actions">
-          <a class="action-link" href="https://arxiv.org/abs/2509.13400" target="_blank" rel="noreferrer">Paper</a>
-          <a class="action-link" href="#" id="github-link">GitHub</a>
-          <a class="action-link" href="#downloads">Downloads</a>
+        <div class="actions">
+          <a href="https://arxiv.org/abs/2509.13400" target="_blank" rel="noreferrer">
+            Paper
+          </a>
+          <a
+            href="https://github.com/ivaxi0s/llm-review-bias"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
         </div>
-
-        <div class="hero__stats" id="hero-stats"></div>
-
-        <nav class="section-tabs">
-          <a href="#overview">Overview</a>
-          <a href="#gender">Gender</a>
-          <a href="#affiliation">Affiliation</a>
-          <a href="#seniority">Seniority</a>
-          <a href="#publication-history">Publication History</a>
-          <a href="#downloads">Downloads</a>
-        </nav>
-      </header>
-
-      <main>
-        <section id="overview" class="panel reveal">
-          <div class="section-head">
-            <div>
-              <p class="kicker">Overview</p>
-              <h2>Start with the main comparison table</h2>
-            </div>
-            <p class="section-copy">
-              This first pass focuses on a clean, filterable view of the paper's
-              main table, then opens out into the four experimental dimensions.
-            </p>
-          </div>
-
-          <div class="control-row">
-            <label>
-              <span>Dimension</span>
-              <select id="dimension-select"></select>
-            </label>
-            <label>
-              <span>Paper label</span>
-              <select id="label-select"></select>
-            </label>
-            <label>
-              <span>Metric type</span>
-              <select id="metric-select"></select>
-            </label>
-          </div>
-
-          <div class="chart-card">
-            <div class="chart-card__header">
-              <div>
-                <p class="kicker">Filtered View</p>
-                <h3 id="chart-title">Model comparison</h3>
-              </div>
-              <p id="chart-caption" class="chart-caption"></p>
-            </div>
-            <div id="comparison-chart" class="comparison-chart"></div>
-          </div>
-        </section>
-
-        <section id="gender" class="panel reveal">
-          <div class="section-head">
-            <div>
-              <p class="kicker">Gender Dimension</p>
-              <h2>Author names crossed with two affiliations</h2>
-            </div>
-            <p class="section-copy">
-              The gender setup mirrors the paper tables directly: four male names,
-              four female names, and two affiliations used in the experiment.
-            </p>
-          </div>
-          <div class="two-column">
-            <article class="info-card">
-              <h3>Authors</h3>
-              <div id="gender-authors" class="dual-list"></div>
-            </article>
-            <article class="info-card">
-              <h3>Affiliations</h3>
-              <div id="gender-affiliations"></div>
-            </article>
-          </div>
-        </section>
-
-        <section id="affiliation" class="panel reveal">
-          <div class="section-head">
-            <div>
-              <p class="kicker">Affiliation Dimension</p>
-              <h2>Ranked stronger vs ranked lower affiliations</h2>
-            </div>
-            <p class="section-copy">
-              The site uses the renamed paper-facing labels while preserving the
-              country-balanced setup underneath.
-            </p>
-          </div>
-
-          <div class="three-column">
-            <article class="info-card">
-              <h3>Ranked stronger</h3>
-              <div id="ranked-stronger"></div>
-            </article>
-            <article class="info-card">
-              <h3>Ranked lower</h3>
-              <div id="ranked-lower"></div>
-            </article>
-            <article class="info-card">
-              <h3>Country author pairs</h3>
-              <div id="country-author-pairs"></div>
-            </article>
-          </div>
-
-          <div class="chart-card chart-card--secondary">
-            <div class="chart-card__header">
-              <div>
-                <p class="kicker">Hypothesis-Test Artifact</p>
-                <h3>Affiliation ranking by model</h3>
-              </div>
-              <label class="compact-select">
-                <span>Model</span>
-                <select id="ranking-model-select"></select>
-              </label>
-            </div>
-            <div id="ranking-chart" class="ranking-chart"></div>
-          </div>
-        </section>
-
-        <section id="seniority" class="panel reveal">
-          <div class="section-head">
-            <div>
-              <p class="kicker">Seniority Dimension</p>
-              <h2>Seniority cues at matched affiliations</h2>
-            </div>
-            <p class="section-copy">
-              Seniority was operationalized through the author-profile cue shown in
-              the prompt: senior PI versus undergraduate student.
-            </p>
-          </div>
-          <div id="seniority-cards" class="profile-grid"></div>
-        </section>
-
-        <section id="publication-history" class="panel reveal">
-          <div class="section-head">
-            <div>
-              <p class="kicker">Publication-History Dimension</p>
-              <h2>Matched authors with contrasting track records</h2>
-            </div>
-            <p class="section-copy">
-              Publication-history bias was tested by varying only the stated number
-              of top-tier publications while keeping the rest of the setup matched.
-            </p>
-          </div>
-          <div id="publication-history-cards" class="profile-grid"></div>
-        </section>
-
-        <section id="downloads" class="panel reveal">
-          <div class="section-head">
-            <div>
-              <p class="kicker">Downloads</p>
-              <h2>Artifacts extracted from the paper bundle</h2>
-            </div>
-            <p class="section-copy">
-              For v1, these are linked directly as downloadable files so the site
-              can launch before every figure is fully rebuilt as a native web chart.
-            </p>
-          </div>
-          <div id="downloads-grid" class="downloads-grid"></div>
-        </section>
-      </main>
-    </div>
-
-    <script src="app.js" type="module"></script>
+      </div>
+    </main>
   </body>
 </html>
