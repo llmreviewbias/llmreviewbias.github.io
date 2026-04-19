@@ -100,6 +100,13 @@ sup { font-size: 0.65em; }
   color: var(--hero-muted);
 }
 
+.equal-contrib {
+  margin-top: 4px;
+  font-size: 0.82rem;
+  color: var(--hero-muted);
+  font-style: italic;
+}
+
 .button-row {
   margin-top: 36px;
   display: flex;
@@ -351,6 +358,19 @@ sup { font-size: 0.65em; }
   outline: none;
 }
 .dropdown:focus { border-color: var(--accent); }
+
+.heatmap-img-container {
+  text-align: center;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+.heatmap-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
 
 .heatmap-container {
   overflow-x: auto;

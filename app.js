@@ -152,14 +152,12 @@ function renderHeatmap(modelKey) {
 
 function initHeatmapControls() {
   const select = document.getElementById('heatmap-model-select');
-  if (!select) return;
-  MODELS.forEach(m => {
-    const opt = document.createElement('option');
-    opt.value = m;
-    opt.textContent = MODEL_LABELS[m];
-    select.appendChild(opt);
+  const img    = document.getElementById('heatmap-img');
+  if (!select || !img) return;
+  select.addEventListener('change', () => {
+    img.src = 'images/heatmaps/' + select.value + '-1.png';
+    img.alt = 'Affiliation bias heatmap — ' + select.options[select.selectedIndex].text;
   });
-  select.addEventListener('change', () => renderHeatmap(select.value));
 }
 
 /* ══════════════════════════════════════════
@@ -228,8 +226,7 @@ async function init() {
     });
     renderGenderChart('gen-bar-chart', genData);
 
-    // Heatmap
-    renderHeatmap('all');
+    // Heatmap is image-based; switching handled by initHeatmapControls()
 
   } catch (err) {
     console.error('Failed to load bias data:', err);
