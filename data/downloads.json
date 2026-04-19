@@ -1,0 +1,92 @@
+[
+  {
+    "title": "deepseek-qwen-32b all llm rating top2bot2 netwinsorted",
+    "filename": "deepseek-qwen-32b_all_llm_rating_top2bot2_netwinsorted.pdf",
+    "category": "Heatmap",
+    "url": "downloads/results/llm_rating_heatmaps/deepseek-qwen-32b_all_llm_rating_top2bot2_netwinsorted.pdf"
+  },
+  {
+    "title": "deepseek-r1-8b all llm rating top2bot2 netwinsorted",
+    "filename": "deepseek-r1-8b_all_llm_rating_top2bot2_netwinsorted.pdf",
+    "category": "Heatmap",
+    "url": "downloads/results/llm_rating_heatmaps/deepseek-r1-8b_all_llm_rating_top2bot2_netwinsorted.pdf"
+  },
+  {
+    "title": "gemini-2.0-flash-lite all llm rating top2bot2 netwinsorted",
+    "filename": "gemini-2.0-flash-lite_all_llm_rating_top2bot2_netwinsorted.pdf",
+    "category": "Heatmap",
+    "url": "downloads/results/llm_rating_heatmaps/gemini-2.0-flash-lite_all_llm_rating_top2bot2_netwinsorted.pdf"
+  },
+  {
+    "title": "gpt-4o-mini all llm rating top2bot2 netwinsorted",
+    "filename": "gpt-4o-mini_all_llm_rating_top2bot2_netwinsorted.pdf",
+    "category": "Heatmap",
+    "url": "downloads/results/llm_rating_heatmaps/gpt-4o-mini_all_llm_rating_top2bot2_netwinsorted.pdf"
+  },
+  {
+    "title": "llama3.1 70b all llm rating top2bot2 netwinsorted",
+    "filename": "llama3.1_70b_all_llm_rating_top2bot2_netwinsorted.pdf",
+    "category": "Heatmap",
+    "url": "downloads/results/llm_rating_heatmaps/llama3.1_70b_all_llm_rating_top2bot2_netwinsorted.pdf"
+  },
+  {
+    "title": "llama3.1 8b all llm rating top2bot2 netwinsorted",
+    "filename": "llama3.1_8b_all_llm_rating_top2bot2_netwinsorted.pdf",
+    "category": "Heatmap",
+    "url": "downloads/results/llm_rating_heatmaps/llama3.1_8b_all_llm_rating_top2bot2_netwinsorted.pdf"
+  },
+  {
+    "title": "mistral-small 22b all llm rating top2bot2 netwinsorted",
+    "filename": "mistral-small_22b_all_llm_rating_top2bot2_netwinsorted.pdf",
+    "category": "Heatmap",
+    "url": "downloads/results/llm_rating_heatmaps/mistral-small_22b_all_llm_rating_top2bot2_netwinsorted.pdf"
+  },
+  {
+    "title": "mistral 8b all llm rating top2bot2 netwinsorted",
+    "filename": "mistral_8b_all_llm_rating_top2bot2_netwinsorted.pdf",
+    "category": "Heatmap",
+    "url": "downloads/results/llm_rating_heatmaps/mistral_8b_all_llm_rating_top2bot2_netwinsorted.pdf"
+  },
+  {
+    "title": "qwq all llm rating top2bot2 netwinsorted",
+    "filename": "qwq_all_llm_rating_top2bot2_netwinsorted.pdf",
+    "category": "Heatmap",
+    "url": "downloads/results/llm_rating_heatmaps/qwq_all_llm_rating_top2bot2_netwinsorted.pdf"
+  },
+  {
+    "title": "PIvsUG",
+    "filename": "PIvsUG.pdf",
+    "category": "Paper artifact",
+    "url": "downloads/results/PIvsUG.pdf"
+  },
+  {
+    "title": "Pub history",
+    "filename": "Pub_history.pdf",
+    "category": "Paper artifact",
+    "url": "downloads/results/Pub_history.pdf"
+  },
+  {
+    "title": "Pub history 1",
+    "filename": "Pub_history_1.pdf",
+    "category": "Paper artifact",
+    "url": "downloads/results/Pub_history_1.pdf"
+  },
+  {
+    "title": "Pub history large",
+    "filename": "Pub_history_large.pdf",
+    "category": "Paper artifact",
+    "url": "downloads/results/Pub_history_large.pdf"
+  },
+  {
+    "title": "pivsug 1",
+    "filename": "pivsug_1.pdf",
+    "category": "Paper artifact",
+    "url": "downloads/results/pivsug_1.pdf"
+  },
+  {
+    "title": "pivsug 2",
+    "filename": "pivsug_2.pdf",
+    "category": "Paper artifact",
+    "url": "downloads/results/pivsug_2.pdf"
+  }
+]

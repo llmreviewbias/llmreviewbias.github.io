@@ -1,0 +1,834 @@
+[
+  {
+    "model": "Ministral 8B Instruct 2410",
+    "label": "Accepted",
+    "metricType": "Hard",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 4.3,
+      "contrast": 1.5,
+      "tie": 94.2
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 1.2,
+      "contrast": 3.7,
+      "tie": 95.0
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 3.9,
+      "contrast": 2.3,
+      "tie": 93.8
+    }
+  },
+  {
+    "model": "Ministral 8B Instruct 2410",
+    "label": "Accepted",
+    "metricType": "Soft",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 68.6,
+      "contrast": 26.6,
+      "tie": 4.8
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 40.2,
+      "contrast": 47.8,
+      "tie": 12.0
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 38.2,
+      "contrast": 51.9,
+      "tie": 9.9
+    }
+  },
+  {
+    "model": "Ministral 8B Instruct 2410",
+    "label": "Rejected",
+    "metricType": "Hard",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 5.8,
+      "contrast": 1.8,
+      "tie": 92.4
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 3.5,
+      "contrast": 2.7,
+      "tie": 93.8
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 3.8,
+      "contrast": 5.0,
+      "tie": 91.3
+    }
+  },
+  {
+    "model": "Ministral 8B Instruct 2410",
+    "label": "Rejected",
+    "metricType": "Soft",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 67.1,
+      "contrast": 29.1,
+      "tie": 3.7
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 43.9,
+      "contrast": 48.6,
+      "tie": 7.4
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 43.5,
+      "contrast": 47.9,
+      "tie": 8.6
+    }
+  },
+  {
+    "model": "DeepSeek R1 Distill Llama 8B",
+    "label": "Accepted",
+    "metricType": "Hard",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 13.6,
+      "contrast": 9.5,
+      "tie": 76.9
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 11.3,
+      "contrast": 10.8,
+      "tie": 77.9
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 11.5,
+      "contrast": 10.7,
+      "tie": 77.8
+    }
+  },
+  {
+    "model": "DeepSeek R1 Distill Llama 8B",
+    "label": "Accepted",
+    "metricType": "Soft",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 52.8,
+      "contrast": 44.5,
+      "tie": 2.7
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 50.5,
+      "contrast": 45.7,
+      "tie": 3.8
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 48.1,
+      "contrast": 48.8,
+      "tie": 3.1
+    }
+  },
+  {
+    "model": "DeepSeek R1 Distill Llama 8B",
+    "label": "Rejected",
+    "metricType": "Hard",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 14.0,
+      "contrast": 10.7,
+      "tie": 75.4
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 11.4,
+      "contrast": 9.6,
+      "tie": 79.0
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 12.0,
+      "contrast": 12.3,
+      "tie": 75.7
+    }
+  },
+  {
+    "model": "DeepSeek R1 Distill Llama 8B",
+    "label": "Rejected",
+    "metricType": "Soft",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 53.8,
+      "contrast": 43.2,
+      "tie": 3.0
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 50.2,
+      "contrast": 46.5,
+      "tie": 3.3
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 49.1,
+      "contrast": 48.2,
+      "tie": 2.7
+    }
+  },
+  {
+    "model": "Llama 3.1 8B Instruct",
+    "label": "Accepted",
+    "metricType": "Hard",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 2.5,
+      "contrast": 2.0,
+      "tie": 95.5
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 2.8,
+      "contrast": 1.4,
+      "tie": 95.8
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 2.1,
+      "contrast": 2.1,
+      "tie": 95.8
+    }
+  },
+  {
+    "model": "Llama 3.1 8B Instruct",
+    "label": "Accepted",
+    "metricType": "Soft",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 52.1,
+      "contrast": 35.4,
+      "tie": 12.5
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 42.8,
+      "contrast": 42.3,
+      "tie": 15.0
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 40.7,
+      "contrast": 45.3,
+      "tie": 14.0
+    }
+  },
+  {
+    "model": "Llama 3.1 8B Instruct",
+    "label": "Rejected",
+    "metricType": "Hard",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 4.9,
+      "contrast": 2.8,
+      "tie": 92.3
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 3.9,
+      "contrast": 2.9,
+      "tie": 93.2
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 2.9,
+      "contrast": 2.7,
+      "tie": 94.3
+    }
+  },
+  {
+    "model": "Llama 3.1 8B Instruct",
+    "label": "Rejected",
+    "metricType": "Soft",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 54.7,
+      "contrast": 34.5,
+      "tie": 10.8
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 43.1,
+      "contrast": 42.1,
+      "tie": 14.8
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 42.4,
+      "contrast": 42.1,
+      "tie": 15.6
+    }
+  },
+  {
+    "model": "Mistral Small Instruct 2409",
+    "label": "Accepted",
+    "metricType": "Hard",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 14.0,
+      "contrast": 5.5,
+      "tie": 80.5
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 5.2,
+      "contrast": 6.2,
+      "tie": 88.7
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 5.1,
+      "contrast": 10.1,
+      "tie": 84.8
+    }
+  },
+  {
+    "model": "Mistral Small Instruct 2409",
+    "label": "Accepted",
+    "metricType": "Soft",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 65.3,
+      "contrast": 29.8,
+      "tie": 4.9
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 42.4,
+      "contrast": 44.4,
+      "tie": 13.2
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 35.6,
+      "contrast": 54.0,
+      "tie": 10.5
+    }
+  },
+  {
+    "model": "Mistral Small Instruct 2409",
+    "label": "Rejected",
+    "metricType": "Hard",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 14.3,
+      "contrast": 4.4,
+      "tie": 81.4
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 7.5,
+      "contrast": 7.9,
+      "tie": 84.5
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 5.3,
+      "contrast": 10.4,
+      "tie": 84.3
+    }
+  },
+  {
+    "model": "Mistral Small Instruct 2409",
+    "label": "Rejected",
+    "metricType": "Soft",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 67.4,
+      "contrast": 28.0,
+      "tie": 4.6
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 39.3,
+      "contrast": 51.1,
+      "tie": 9.6
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 37.4,
+      "contrast": 53.7,
+      "tie": 8.9
+    }
+  },
+  {
+    "model": "DeepSeek R1 Distill Qwen 32B",
+    "label": "Accepted",
+    "metricType": "Hard",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 12.8,
+      "contrast": 9.4,
+      "tie": 77.8
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 10.4,
+      "contrast": 8.6,
+      "tie": 81.0
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 12.1,
+      "contrast": 9.4,
+      "tie": 78.5
+    }
+  },
+  {
+    "model": "DeepSeek R1 Distill Qwen 32B",
+    "label": "Accepted",
+    "metricType": "Soft",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 53.0,
+      "contrast": 44.1,
+      "tie": 2.9
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 49.7,
+      "contrast": 47.3,
+      "tie": 3.0
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 50.9,
+      "contrast": 45.5,
+      "tie": 3.6
+    }
+  },
+  {
+    "model": "DeepSeek R1 Distill Qwen 32B",
+    "label": "Rejected",
+    "metricType": "Hard",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 15.3,
+      "contrast": 10.4,
+      "tie": 74.3
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 11.2,
+      "contrast": 9.0,
+      "tie": 79.8
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 13.7,
+      "contrast": 11.9,
+      "tie": 74.4
+    }
+  },
+  {
+    "model": "DeepSeek R1 Distill Qwen 32B",
+    "label": "Rejected",
+    "metricType": "Soft",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 54.2,
+      "contrast": 43.1,
+      "tie": 2.7
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 48.4,
+      "contrast": 49.1,
+      "tie": 2.5
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 49.1,
+      "contrast": 47.7,
+      "tie": 3.2
+    }
+  },
+  {
+    "model": "QwQ 32B",
+    "label": "Accepted",
+    "metricType": "Hard",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 22.7,
+      "contrast": 9.8,
+      "tie": 67.5
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 12.2,
+      "contrast": 18.0,
+      "tie": 69.8
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 13.3,
+      "contrast": 19.1,
+      "tie": 67.6
+    }
+  },
+  {
+    "model": "QwQ 32B",
+    "label": "Accepted",
+    "metricType": "Soft",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 49.8,
+      "contrast": 29.6,
+      "tie": 20.5
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 33.5,
+      "contrast": 44.0,
+      "tie": 22.5
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 35.8,
+      "contrast": 44.8,
+      "tie": 19.4
+    }
+  },
+  {
+    "model": "QwQ 32B",
+    "label": "Rejected",
+    "metricType": "Hard",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 21.9,
+      "contrast": 9.7,
+      "tie": 68.4
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 11.9,
+      "contrast": 18.8,
+      "tie": 69.2
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 15.2,
+      "contrast": 14.9,
+      "tie": 69.9
+    }
+  },
+  {
+    "model": "QwQ 32B",
+    "label": "Rejected",
+    "metricType": "Soft",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 51.8,
+      "contrast": 30.8,
+      "tie": 17.4
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 37.6,
+      "contrast": 46.9,
+      "tie": 15.5
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 41.7,
+      "contrast": 40.8,
+      "tie": 17.5
+    }
+  },
+  {
+    "model": "Llama 3.1 70B Instruct",
+    "label": "Accepted",
+    "metricType": "Hard",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 1.7,
+      "contrast": 1.1,
+      "tie": 97.2
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 1.6,
+      "contrast": 1.8,
+      "tie": 96.6
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 0.8,
+      "contrast": 1.0,
+      "tie": 98.2
+    }
+  },
+  {
+    "model": "Llama 3.1 70B Instruct",
+    "label": "Accepted",
+    "metricType": "Soft",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 56.8,
+      "contrast": 27.7,
+      "tie": 15.5
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 35.5,
+      "contrast": 40.1,
+      "tie": 24.4
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 37.2,
+      "contrast": 38.1,
+      "tie": 24.7
+    }
+  },
+  {
+    "model": "Llama 3.1 70B Instruct",
+    "label": "Rejected",
+    "metricType": "Hard",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 4.0,
+      "contrast": 0.9,
+      "tie": 95.1
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 2.3,
+      "contrast": 2.5,
+      "tie": 95.2
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 1.6,
+      "contrast": 2.4,
+      "tie": 95.9
+    }
+  },
+  {
+    "model": "Llama 3.1 70B Instruct",
+    "label": "Rejected",
+    "metricType": "Soft",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 60.9,
+      "contrast": 25.8,
+      "tie": 13.3
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 38.8,
+      "contrast": 37.7,
+      "tie": 23.5
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 34.1,
+      "contrast": 39.0,
+      "tie": 26.9
+    }
+  },
+  {
+    "model": "Gemini 2.0 Flash Lite",
+    "label": "Accepted",
+    "metricType": "Hard",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 25.2,
+      "contrast": 7.4,
+      "tie": 67.4
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 14.7,
+      "contrast": 12.5,
+      "tie": 72.8
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 14.1,
+      "contrast": 14.2,
+      "tie": 71.6
+    }
+  },
+  {
+    "model": "Gemini 2.0 Flash Lite",
+    "label": "Rejected",
+    "metricType": "Hard",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 26.9,
+      "contrast": 7.6,
+      "tie": 65.4
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 15.2,
+      "contrast": 15.3,
+      "tie": 69.4
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 19.0,
+      "contrast": 13.3,
+      "tie": 67.7
+    }
+  },
+  {
+    "model": "GPT-4o Mini",
+    "label": "Accepted",
+    "metricType": "Hard",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 15.3,
+      "contrast": 6.2,
+      "tie": 78.5
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 7.8,
+      "contrast": 10.0,
+      "tie": 82.1
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 9.7,
+      "contrast": 12.3,
+      "tie": 78.0
+    }
+  },
+  {
+    "model": "GPT-4o Mini",
+    "label": "Rejected",
+    "metricType": "Hard",
+    "affiliation": {
+      "focusLabel": "RS",
+      "contrastLabel": "RW",
+      "focus": 15.6,
+      "contrast": 6.9,
+      "tie": 77.4
+    },
+    "gender_mit": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 8.8,
+      "contrast": 9.2,
+      "tie": 81.9
+    },
+    "gender_gondar": {
+      "focusLabel": "male",
+      "contrastLabel": "female",
+      "focus": 8.4,
+      "contrast": 9.8,
+      "tie": 81.7
+    }
+  }
+]

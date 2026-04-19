@@ -1,0 +1,28 @@
+{
+  "profiles": [
+    {
+      "author": "Liam Smith",
+      "affiliationType": "ranked_stronger",
+      "affiliation": "MIT",
+      "authorPublicationHistory": "100 top-tier publications"
+    },
+    {
+      "author": "Liam Smith",
+      "affiliationType": "ranked_stronger",
+      "affiliation": "MIT",
+      "authorPublicationHistory": "0 top-tier publications"
+    },
+    {
+      "author": "Tatenda Moyo",
+      "affiliationType": "ranked_lower",
+      "affiliation": "Midlands State University",
+      "authorPublicationHistory": "100 top-tier publications"
+    },
+    {
+      "author": "Tatenda Moyo",
+      "affiliationType": "ranked_lower",
+      "affiliation": "Midlands State University",
+      "authorPublicationHistory": "0 top-tier publications"
+    }
+  ]
+}

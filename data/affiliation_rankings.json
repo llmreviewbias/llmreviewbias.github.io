@@ -1,0 +1,1172 @@
+{
+  "DeepSeek-R1-Distill-Llama-8B": [
+    {
+      "rank": 1,
+      "affiliation": "Carnegie Mellon University",
+      "type": "RS",
+      "wins": 1204,
+      "matches": 8064,
+      "winRate": 14.93
+    },
+    {
+      "rank": 2,
+      "affiliation": "MIT",
+      "type": "RS",
+      "wins": 1137,
+      "matches": 8064,
+      "winRate": 14.1
+    },
+    {
+      "rank": 3,
+      "affiliation": "Max Planck Institute for Intelligent Systems",
+      "type": "RS",
+      "wins": 1136,
+      "matches": 8064,
+      "winRate": 14.09
+    },
+    {
+      "rank": 4,
+      "affiliation": "ETH Zurich",
+      "type": "RS",
+      "wins": 1132,
+      "matches": 8064,
+      "winRate": 14.04
+    },
+    {
+      "rank": 5,
+      "affiliation": "TU Munich",
+      "type": "RS",
+      "wins": 1113,
+      "matches": 8064,
+      "winRate": 13.8
+    },
+    {
+      "rank": 6,
+      "affiliation": "University of Cambridge",
+      "type": "RS",
+      "wins": 1088,
+      "matches": 8064,
+      "winRate": 13.49
+    },
+    {
+      "rank": 7,
+      "affiliation": "Tsinghua University",
+      "type": "RS",
+      "wins": 1066,
+      "matches": 8064,
+      "winRate": 13.22
+    },
+    {
+      "rank": 8,
+      "affiliation": "Peking University",
+      "type": "RS",
+      "wins": 1036,
+      "matches": 8064,
+      "winRate": 12.85
+    },
+    {
+      "rank": 9,
+      "affiliation": "Henan University",
+      "type": "RW",
+      "wins": 870,
+      "matches": 8064,
+      "winRate": 10.79
+    },
+    {
+      "rank": 10,
+      "affiliation": "University of Gondar",
+      "type": "RW",
+      "wins": 852,
+      "matches": 8064,
+      "winRate": 10.57
+    },
+    {
+      "rank": 11,
+      "affiliation": "University of Lagos",
+      "type": "RW",
+      "wins": 847,
+      "matches": 8064,
+      "winRate": 10.5
+    },
+    {
+      "rank": 12,
+      "affiliation": "Texas A&M University–Kingsville",
+      "type": "RW",
+      "wins": 837,
+      "matches": 8064,
+      "winRate": 10.38
+    },
+    {
+      "rank": 13,
+      "affiliation": "University of Rostock",
+      "type": "RW",
+      "wins": 811,
+      "matches": 8064,
+      "winRate": 10.06
+    },
+    {
+      "rank": 14,
+      "affiliation": "Dong A University",
+      "type": "RW",
+      "wins": 805,
+      "matches": 8064,
+      "winRate": 9.98
+    },
+    {
+      "rank": 15,
+      "affiliation": "Midlands State University",
+      "type": "RW",
+      "wins": 797,
+      "matches": 8064,
+      "winRate": 9.88
+    },
+    {
+      "rank": 16,
+      "affiliation": "Savannah State University",
+      "type": "RW",
+      "wins": 678,
+      "matches": 8064,
+      "winRate": 8.41
+    }
+  ],
+  "DeepSeek-R1-Distill-Qwen-32B": [
+    {
+      "rank": 1,
+      "affiliation": "Max Planck Institute for Intelligent Systems",
+      "type": "RS",
+      "wins": 1234,
+      "matches": 8064,
+      "winRate": 15.3
+    },
+    {
+      "rank": 2,
+      "affiliation": "Carnegie Mellon University",
+      "type": "RS",
+      "wins": 1182,
+      "matches": 8064,
+      "winRate": 14.66
+    },
+    {
+      "rank": 3,
+      "affiliation": "University of Cambridge",
+      "type": "RS",
+      "wins": 1172,
+      "matches": 8064,
+      "winRate": 14.53
+    },
+    {
+      "rank": 4,
+      "affiliation": "ETH Zurich",
+      "type": "RS",
+      "wins": 1158,
+      "matches": 8064,
+      "winRate": 14.36
+    },
+    {
+      "rank": 5,
+      "affiliation": "Tsinghua University",
+      "type": "RS",
+      "wins": 1156,
+      "matches": 8064,
+      "winRate": 14.34
+    },
+    {
+      "rank": 6,
+      "affiliation": "TU Munich",
+      "type": "RS",
+      "wins": 1061,
+      "matches": 8064,
+      "winRate": 13.16
+    },
+    {
+      "rank": 7,
+      "affiliation": "MIT",
+      "type": "RS",
+      "wins": 1059,
+      "matches": 8064,
+      "winRate": 13.13
+    },
+    {
+      "rank": 8,
+      "affiliation": "Peking University",
+      "type": "RS",
+      "wins": 1039,
+      "matches": 8064,
+      "winRate": 12.88
+    },
+    {
+      "rank": 9,
+      "affiliation": "Dong A University",
+      "type": "RW",
+      "wins": 869,
+      "matches": 8064,
+      "winRate": 10.78
+    },
+    {
+      "rank": 10,
+      "affiliation": "University of Gondar",
+      "type": "RW",
+      "wins": 828,
+      "matches": 8064,
+      "winRate": 10.27
+    },
+    {
+      "rank": 11,
+      "affiliation": "University of Rostock",
+      "type": "RW",
+      "wins": 798,
+      "matches": 8064,
+      "winRate": 9.9
+    },
+    {
+      "rank": 12,
+      "affiliation": "University of Lagos",
+      "type": "RW",
+      "wins": 797,
+      "matches": 8064,
+      "winRate": 9.88
+    },
+    {
+      "rank": 13,
+      "affiliation": "Texas A&M University–Kingsville",
+      "type": "RW",
+      "wins": 793,
+      "matches": 8064,
+      "winRate": 9.83
+    },
+    {
+      "rank": 14,
+      "affiliation": "Midlands State University",
+      "type": "RW",
+      "wins": 777,
+      "matches": 8064,
+      "winRate": 9.64
+    },
+    {
+      "rank": 15,
+      "affiliation": "Henan University",
+      "type": "RW",
+      "wins": 768,
+      "matches": 8064,
+      "winRate": 9.52
+    },
+    {
+      "rank": 16,
+      "affiliation": "Savannah State University",
+      "type": "RW",
+      "wins": 744,
+      "matches": 8064,
+      "winRate": 9.23
+    }
+  ],
+  "Gemini-2.0-Flash-Lite": [
+    {
+      "rank": 1,
+      "affiliation": "Max Planck Institute for Intelligent Systems",
+      "type": "RS",
+      "wins": 2237,
+      "matches": 8064,
+      "winRate": 27.74
+    },
+    {
+      "rank": 2,
+      "affiliation": "Carnegie Mellon University",
+      "type": "RS",
+      "wins": 2175,
+      "matches": 8064,
+      "winRate": 26.97
+    },
+    {
+      "rank": 3,
+      "affiliation": "ETH Zurich",
+      "type": "RS",
+      "wins": 2165,
+      "matches": 8064,
+      "winRate": 26.85
+    },
+    {
+      "rank": 4,
+      "affiliation": "TU Munich",
+      "type": "RS",
+      "wins": 2126,
+      "matches": 8064,
+      "winRate": 26.36
+    },
+    {
+      "rank": 5,
+      "affiliation": "MIT",
+      "type": "RS",
+      "wins": 2090,
+      "matches": 8064,
+      "winRate": 25.92
+    },
+    {
+      "rank": 6,
+      "affiliation": "Peking University",
+      "type": "RS",
+      "wins": 2069,
+      "matches": 8064,
+      "winRate": 25.66
+    },
+    {
+      "rank": 7,
+      "affiliation": "University of Cambridge",
+      "type": "RS",
+      "wins": 2026,
+      "matches": 8064,
+      "winRate": 25.12
+    },
+    {
+      "rank": 8,
+      "affiliation": "Tsinghua University",
+      "type": "RS",
+      "wins": 1934,
+      "matches": 8064,
+      "winRate": 23.98
+    },
+    {
+      "rank": 9,
+      "affiliation": "University of Rostock",
+      "type": "RW",
+      "wins": 923,
+      "matches": 8064,
+      "winRate": 11.45
+    },
+    {
+      "rank": 10,
+      "affiliation": "Texas A&M University–Kingsville",
+      "type": "RW",
+      "wins": 695,
+      "matches": 8064,
+      "winRate": 8.62
+    },
+    {
+      "rank": 11,
+      "affiliation": "Dong A University",
+      "type": "RW",
+      "wins": 654,
+      "matches": 8064,
+      "winRate": 8.11
+    },
+    {
+      "rank": 12,
+      "affiliation": "Henan University",
+      "type": "RW",
+      "wins": 642,
+      "matches": 8064,
+      "winRate": 7.96
+    },
+    {
+      "rank": 13,
+      "affiliation": "University of Lagos",
+      "type": "RW",
+      "wins": 503,
+      "matches": 8064,
+      "winRate": 6.24
+    },
+    {
+      "rank": 14,
+      "affiliation": "Savannah State University",
+      "type": "RW",
+      "wins": 499,
+      "matches": 8064,
+      "winRate": 6.19
+    },
+    {
+      "rank": 15,
+      "affiliation": "University of Gondar",
+      "type": "RW",
+      "wins": 478,
+      "matches": 8064,
+      "winRate": 5.93
+    },
+    {
+      "rank": 16,
+      "affiliation": "Midlands State University",
+      "type": "RW",
+      "wins": 457,
+      "matches": 8064,
+      "winRate": 5.67
+    }
+  ],
+  "Meta-Llama-3.1-70B-Instruct": [
+    {
+      "rank": 1,
+      "affiliation": "Peking University",
+      "type": "RS",
+      "wins": 270,
+      "matches": 8064,
+      "winRate": 3.35
+    },
+    {
+      "rank": 2,
+      "affiliation": "MIT",
+      "type": "RS",
+      "wins": 259,
+      "matches": 8064,
+      "winRate": 3.21
+    },
+    {
+      "rank": 3,
+      "affiliation": "Tsinghua University",
+      "type": "RS",
+      "wins": 256,
+      "matches": 8064,
+      "winRate": 3.17
+    },
+    {
+      "rank": 4,
+      "affiliation": "TU Munich",
+      "type": "RS",
+      "wins": 245,
+      "matches": 8064,
+      "winRate": 3.04
+    },
+    {
+      "rank": 5,
+      "affiliation": "University of Cambridge",
+      "type": "RS",
+      "wins": 238,
+      "matches": 8064,
+      "winRate": 2.95
+    },
+    {
+      "rank": 6,
+      "affiliation": "ETH Zurich",
+      "type": "RS",
+      "wins": 213,
+      "matches": 8064,
+      "winRate": 2.64
+    },
+    {
+      "rank": 7,
+      "affiliation": "Carnegie Mellon University",
+      "type": "RS",
+      "wins": 211,
+      "matches": 8064,
+      "winRate": 2.62
+    },
+    {
+      "rank": 8,
+      "affiliation": "Max Planck Institute for Intelligent Systems",
+      "type": "RS",
+      "wins": 170,
+      "matches": 8064,
+      "winRate": 2.11
+    },
+    {
+      "rank": 9,
+      "affiliation": "Texas A&M University–Kingsville",
+      "type": "RW",
+      "wins": 116,
+      "matches": 8064,
+      "winRate": 1.44
+    },
+    {
+      "rank": 10,
+      "affiliation": "University of Rostock",
+      "type": "RW",
+      "wins": 98,
+      "matches": 8064,
+      "winRate": 1.22
+    },
+    {
+      "rank": 11,
+      "affiliation": "Henan University",
+      "type": "RW",
+      "wins": 96,
+      "matches": 8064,
+      "winRate": 1.19
+    },
+    {
+      "rank": 12,
+      "affiliation": "Dong A University",
+      "type": "RW",
+      "wins": 89,
+      "matches": 8064,
+      "winRate": 1.1
+    },
+    {
+      "rank": 13,
+      "affiliation": "University of Lagos",
+      "type": "RW",
+      "wins": 72,
+      "matches": 8064,
+      "winRate": 0.89
+    },
+    {
+      "rank": 14,
+      "affiliation": "University of Gondar",
+      "type": "RW",
+      "wins": 67,
+      "matches": 8064,
+      "winRate": 0.83
+    },
+    {
+      "rank": 15,
+      "affiliation": "Midlands State University",
+      "type": "RW",
+      "wins": 60,
+      "matches": 8064,
+      "winRate": 0.74
+    },
+    {
+      "rank": 16,
+      "affiliation": "Savannah State University",
+      "type": "RW",
+      "wins": 44,
+      "matches": 8064,
+      "winRate": 0.55
+    }
+  ],
+  "Meta-Llama-3.1-8B-Instruct": [
+    {
+      "rank": 1,
+      "affiliation": "Max Planck Institute for Intelligent Systems",
+      "type": "RS",
+      "wins": 350,
+      "matches": 8064,
+      "winRate": 4.34
+    },
+    {
+      "rank": 2,
+      "affiliation": "MIT",
+      "type": "RS",
+      "wins": 328,
+      "matches": 8064,
+      "winRate": 4.07
+    },
+    {
+      "rank": 3,
+      "affiliation": "TU Munich",
+      "type": "RS",
+      "wins": 307,
+      "matches": 8064,
+      "winRate": 3.81
+    },
+    {
+      "rank": 4,
+      "affiliation": "University of Cambridge",
+      "type": "RS",
+      "wins": 289,
+      "matches": 8064,
+      "winRate": 3.58
+    },
+    {
+      "rank": 5,
+      "affiliation": "Carnegie Mellon University",
+      "type": "RS",
+      "wins": 284,
+      "matches": 8064,
+      "winRate": 3.52
+    },
+    {
+      "rank": 6,
+      "affiliation": "Peking University",
+      "type": "RS",
+      "wins": 279,
+      "matches": 8064,
+      "winRate": 3.46
+    },
+    {
+      "rank": 7,
+      "affiliation": "ETH Zurich",
+      "type": "RS",
+      "wins": 278,
+      "matches": 8064,
+      "winRate": 3.45
+    },
+    {
+      "rank": 8,
+      "affiliation": "Tsinghua University",
+      "type": "RS",
+      "wins": 270,
+      "matches": 8064,
+      "winRate": 3.35
+    },
+    {
+      "rank": 9,
+      "affiliation": "University of Lagos",
+      "type": "RW",
+      "wins": 226,
+      "matches": 8064,
+      "winRate": 2.8
+    },
+    {
+      "rank": 10,
+      "affiliation": "University of Rostock",
+      "type": "RW",
+      "wins": 211,
+      "matches": 8064,
+      "winRate": 2.62
+    },
+    {
+      "rank": 11,
+      "affiliation": "Texas A&M University–Kingsville",
+      "type": "RW",
+      "wins": 196,
+      "matches": 8064,
+      "winRate": 2.43
+    },
+    {
+      "rank": 12,
+      "affiliation": "Dong A University",
+      "type": "RW",
+      "wins": 190,
+      "matches": 8064,
+      "winRate": 2.36
+    },
+    {
+      "rank": 13,
+      "affiliation": "Midlands State University",
+      "type": "RW",
+      "wins": 187,
+      "matches": 8064,
+      "winRate": 2.32
+    },
+    {
+      "rank": 14,
+      "affiliation": "University of Gondar",
+      "type": "RW",
+      "wins": 184,
+      "matches": 8064,
+      "winRate": 2.28
+    },
+    {
+      "rank": 15,
+      "affiliation": "Henan University",
+      "type": "RW",
+      "wins": 178,
+      "matches": 8064,
+      "winRate": 2.21
+    },
+    {
+      "rank": 16,
+      "affiliation": "Savannah State University",
+      "type": "RW",
+      "wins": 176,
+      "matches": 8064,
+      "winRate": 2.18
+    }
+  ],
+  "Ministral-8B-Instruct-2410": [
+    {
+      "rank": 1,
+      "affiliation": "MIT",
+      "type": "RS",
+      "wins": 478,
+      "matches": 8064,
+      "winRate": 5.93
+    },
+    {
+      "rank": 2,
+      "affiliation": "Max Planck Institute for Intelligent Systems",
+      "type": "RS",
+      "wins": 451,
+      "matches": 8064,
+      "winRate": 5.59
+    },
+    {
+      "rank": 3,
+      "affiliation": "ETH Zurich",
+      "type": "RS",
+      "wins": 440,
+      "matches": 8064,
+      "winRate": 5.46
+    },
+    {
+      "rank": 4,
+      "affiliation": "Tsinghua University",
+      "type": "RS",
+      "wins": 418,
+      "matches": 8064,
+      "winRate": 5.18
+    },
+    {
+      "rank": 5,
+      "affiliation": "Carnegie Mellon University",
+      "type": "RS",
+      "wins": 398,
+      "matches": 8064,
+      "winRate": 4.94
+    },
+    {
+      "rank": 6,
+      "affiliation": "University of Cambridge",
+      "type": "RS",
+      "wins": 391,
+      "matches": 8064,
+      "winRate": 4.85
+    },
+    {
+      "rank": 7,
+      "affiliation": "Peking University",
+      "type": "RS",
+      "wins": 350,
+      "matches": 8064,
+      "winRate": 4.34
+    },
+    {
+      "rank": 8,
+      "affiliation": "TU Munich",
+      "type": "RS",
+      "wins": 340,
+      "matches": 8064,
+      "winRate": 4.22
+    },
+    {
+      "rank": 9,
+      "affiliation": "Texas A&M University–Kingsville",
+      "type": "RW",
+      "wins": 187,
+      "matches": 8064,
+      "winRate": 2.32
+    },
+    {
+      "rank": 10,
+      "affiliation": "University of Rostock",
+      "type": "RW",
+      "wins": 154,
+      "matches": 8064,
+      "winRate": 1.91
+    },
+    {
+      "rank": 11,
+      "affiliation": "Dong A University",
+      "type": "RW",
+      "wins": 149,
+      "matches": 8064,
+      "winRate": 1.85
+    },
+    {
+      "rank": 12,
+      "affiliation": "Midlands State University",
+      "type": "RW",
+      "wins": 148,
+      "matches": 8064,
+      "winRate": 1.84
+    },
+    {
+      "rank": 13,
+      "affiliation": "Henan University",
+      "type": "RW",
+      "wins": 128,
+      "matches": 8064,
+      "winRate": 1.59
+    },
+    {
+      "rank": 14,
+      "affiliation": "Savannah State University",
+      "type": "RW",
+      "wins": 121,
+      "matches": 8064,
+      "winRate": 1.5
+    },
+    {
+      "rank": 15,
+      "affiliation": "University of Lagos",
+      "type": "RW",
+      "wins": 113,
+      "matches": 8064,
+      "winRate": 1.4
+    },
+    {
+      "rank": 16,
+      "affiliation": "University of Gondar",
+      "type": "RW",
+      "wins": 72,
+      "matches": 8064,
+      "winRate": 0.89
+    }
+  ],
+  "Mistral-Small-Instruct-2409": [
+    {
+      "rank": 1,
+      "affiliation": "University of Cambridge",
+      "type": "RS",
+      "wins": 1316,
+      "matches": 8064,
+      "winRate": 16.32
+    },
+    {
+      "rank": 2,
+      "affiliation": "MIT",
+      "type": "RS",
+      "wins": 1282,
+      "matches": 8064,
+      "winRate": 15.9
+    },
+    {
+      "rank": 3,
+      "affiliation": "Carnegie Mellon University",
+      "type": "RS",
+      "wins": 1230,
+      "matches": 8064,
+      "winRate": 15.25
+    },
+    {
+      "rank": 4,
+      "affiliation": "Max Planck Institute for Intelligent Systems",
+      "type": "RS",
+      "wins": 1229,
+      "matches": 8064,
+      "winRate": 15.24
+    },
+    {
+      "rank": 5,
+      "affiliation": "ETH Zurich",
+      "type": "RS",
+      "wins": 1108,
+      "matches": 8064,
+      "winRate": 13.74
+    },
+    {
+      "rank": 6,
+      "affiliation": "Peking University",
+      "type": "RS",
+      "wins": 1021,
+      "matches": 8064,
+      "winRate": 12.66
+    },
+    {
+      "rank": 7,
+      "affiliation": "TU Munich",
+      "type": "RS",
+      "wins": 1018,
+      "matches": 8064,
+      "winRate": 12.62
+    },
+    {
+      "rank": 8,
+      "affiliation": "Tsinghua University",
+      "type": "RS",
+      "wins": 931,
+      "matches": 8064,
+      "winRate": 11.55
+    },
+    {
+      "rank": 9,
+      "affiliation": "University of Rostock",
+      "type": "RW",
+      "wins": 492,
+      "matches": 8064,
+      "winRate": 6.1
+    },
+    {
+      "rank": 10,
+      "affiliation": "Texas A&M University–Kingsville",
+      "type": "RW",
+      "wins": 457,
+      "matches": 8064,
+      "winRate": 5.67
+    },
+    {
+      "rank": 11,
+      "affiliation": "Henan University",
+      "type": "RW",
+      "wins": 436,
+      "matches": 8064,
+      "winRate": 5.41
+    },
+    {
+      "rank": 12,
+      "affiliation": "Dong A University",
+      "type": "RW",
+      "wins": 420,
+      "matches": 8064,
+      "winRate": 5.21
+    },
+    {
+      "rank": 13,
+      "affiliation": "Savannah State University",
+      "type": "RW",
+      "wins": 415,
+      "matches": 8064,
+      "winRate": 5.15
+    },
+    {
+      "rank": 14,
+      "affiliation": "University of Lagos",
+      "type": "RW",
+      "wins": 372,
+      "matches": 8064,
+      "winRate": 4.61
+    },
+    {
+      "rank": 15,
+      "affiliation": "Midlands State University",
+      "type": "RW",
+      "wins": 306,
+      "matches": 8064,
+      "winRate": 3.79
+    },
+    {
+      "rank": 16,
+      "affiliation": "University of Gondar",
+      "type": "RW",
+      "wins": 269,
+      "matches": 8064,
+      "winRate": 3.34
+    }
+  ],
+  "QwQ-32B": [
+    {
+      "rank": 1,
+      "affiliation": "Max Planck Institute for Intelligent Systems",
+      "type": "RS",
+      "wins": 2095,
+      "matches": 8064,
+      "winRate": 25.98
+    },
+    {
+      "rank": 2,
+      "affiliation": "MIT",
+      "type": "RS",
+      "wins": 1989,
+      "matches": 8064,
+      "winRate": 24.67
+    },
+    {
+      "rank": 3,
+      "affiliation": "TU Munich",
+      "type": "RS",
+      "wins": 1814,
+      "matches": 8064,
+      "winRate": 22.5
+    },
+    {
+      "rank": 4,
+      "affiliation": "Tsinghua University",
+      "type": "RS",
+      "wins": 1781,
+      "matches": 8064,
+      "winRate": 22.09
+    },
+    {
+      "rank": 5,
+      "affiliation": "University of Cambridge",
+      "type": "RS",
+      "wins": 1742,
+      "matches": 8064,
+      "winRate": 21.6
+    },
+    {
+      "rank": 6,
+      "affiliation": "ETH Zurich",
+      "type": "RS",
+      "wins": 1728,
+      "matches": 8064,
+      "winRate": 21.43
+    },
+    {
+      "rank": 7,
+      "affiliation": "Carnegie Mellon University",
+      "type": "RS",
+      "wins": 1683,
+      "matches": 8064,
+      "winRate": 20.87
+    },
+    {
+      "rank": 8,
+      "affiliation": "Peking University",
+      "type": "RS",
+      "wins": 1573,
+      "matches": 8064,
+      "winRate": 19.51
+    },
+    {
+      "rank": 9,
+      "affiliation": "University of Rostock",
+      "type": "RW",
+      "wins": 910,
+      "matches": 8064,
+      "winRate": 11.28
+    },
+    {
+      "rank": 10,
+      "affiliation": "University of Lagos",
+      "type": "RW",
+      "wins": 832,
+      "matches": 8064,
+      "winRate": 10.32
+    },
+    {
+      "rank": 11,
+      "affiliation": "Texas A&M University–Kingsville",
+      "type": "RW",
+      "wins": 819,
+      "matches": 8064,
+      "winRate": 10.16
+    },
+    {
+      "rank": 12,
+      "affiliation": "Dong A University",
+      "type": "RW",
+      "wins": 789,
+      "matches": 8064,
+      "winRate": 9.78
+    },
+    {
+      "rank": 13,
+      "affiliation": "Midlands State University",
+      "type": "RW",
+      "wins": 765,
+      "matches": 8064,
+      "winRate": 9.49
+    },
+    {
+      "rank": 14,
+      "affiliation": "University of Gondar",
+      "type": "RW",
+      "wins": 760,
+      "matches": 8064,
+      "winRate": 9.42
+    },
+    {
+      "rank": 15,
+      "affiliation": "Henan University",
+      "type": "RW",
+      "wins": 726,
+      "matches": 8064,
+      "winRate": 9.0
+    },
+    {
+      "rank": 16,
+      "affiliation": "Savannah State University",
+      "type": "RW",
+      "wins": 672,
+      "matches": 8064,
+      "winRate": 8.33
+    }
+  ],
+  "GPT-4o-Mini": [
+    {
+      "rank": 1,
+      "affiliation": "MIT",
+      "type": "RS",
+      "wins": 1518,
+      "matches": 8064,
+      "winRate": 18.82
+    },
+    {
+      "rank": 2,
+      "affiliation": "Max Planck Institute for Intelligent Systems",
+      "type": "RS",
+      "wins": 1358,
+      "matches": 8064,
+      "winRate": 16.84
+    },
+    {
+      "rank": 3,
+      "affiliation": "TU Munich",
+      "type": "RS",
+      "wins": 1332,
+      "matches": 8064,
+      "winRate": 16.52
+    },
+    {
+      "rank": 4,
+      "affiliation": "ETH Zurich",
+      "type": "RS",
+      "wins": 1248,
+      "matches": 8064,
+      "winRate": 15.48
+    },
+    {
+      "rank": 5,
+      "affiliation": "Carnegie Mellon University",
+      "type": "RS",
+      "wins": 1204,
+      "matches": 8064,
+      "winRate": 14.93
+    },
+    {
+      "rank": 6,
+      "affiliation": "Peking University",
+      "type": "RS",
+      "wins": 1158,
+      "matches": 8064,
+      "winRate": 14.36
+    },
+    {
+      "rank": 7,
+      "affiliation": "University of Cambridge",
+      "type": "RS",
+      "wins": 1120,
+      "matches": 8064,
+      "winRate": 13.89
+    },
+    {
+      "rank": 8,
+      "affiliation": "Tsinghua University",
+      "type": "RS",
+      "wins": 1041,
+      "matches": 8064,
+      "winRate": 12.91
+    },
+    {
+      "rank": 9,
+      "affiliation": "University of Rostock",
+      "type": "RW",
+      "wins": 769,
+      "matches": 8064,
+      "winRate": 9.54
+    },
+    {
+      "rank": 10,
+      "affiliation": "University of Lagos",
+      "type": "RW",
+      "wins": 573,
+      "matches": 8064,
+      "winRate": 7.11
+    },
+    {
+      "rank": 11,
+      "affiliation": "Texas A&M University–Kingsville",
+      "type": "RW",
+      "wins": 548,
+      "matches": 8064,
+      "winRate": 6.8
+    },
+    {
+      "rank": 12,
+      "affiliation": "Henan University",
+      "type": "RW",
+      "wins": 507,
+      "matches": 8064,
+      "winRate": 6.29
+    },
+    {
+      "rank": 13,
+      "affiliation": "Midlands State University",
+      "type": "RW",
+      "wins": 492,
+      "matches": 8064,
+      "winRate": 6.1
+    },
+    {
+      "rank": 14,
+      "affiliation": "Savannah State University",
+      "type": "RW",
+      "wins": 467,
+      "matches": 8064,
+      "winRate": 5.79
+    },
+    {
+      "rank": 15,
+      "affiliation": "Dong A University",
+      "type": "RW",
+      "wins": 457,
+      "matches": 8064,
+      "winRate": 5.67
+    },
+    {
+      "rank": 16,
+      "affiliation": "University of Gondar",
+      "type": "RW",
+      "wins": 431,
+      "matches": 8064,
+      "winRate": 5.34
+    }
+  ]
+}

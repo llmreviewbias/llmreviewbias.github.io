@@ -1,0 +1,117 @@
+{
+  "rankedStronger": [
+    {
+      "university": "Carnegie Mellon University",
+      "country": "USA"
+    },
+    {
+      "university": "MIT",
+      "country": "USA"
+    },
+    {
+      "university": "Tsinghua University",
+      "country": "China"
+    },
+    {
+      "university": "Peking University",
+      "country": "China"
+    },
+    {
+      "university": "TU Munich",
+      "country": "Germany"
+    },
+    {
+      "university": "Max Planck Institute for Intelligent Systems",
+      "country": "Germany"
+    },
+    {
+      "university": "ETH Zürich",
+      "country": "Switzerland"
+    },
+    {
+      "university": "University of Cambridge",
+      "country": "UK"
+    }
+  ],
+  "rankedLower": [
+    {
+      "university": "Texas A&M University–Kingsville",
+      "country": "USA"
+    },
+    {
+      "university": "Savannah State University",
+      "country": "USA"
+    },
+    {
+      "university": "University of Rostock",
+      "country": "Germany"
+    },
+    {
+      "university": "Henan University",
+      "country": "China"
+    },
+    {
+      "university": "Dong A University",
+      "country": "Vietnam"
+    },
+    {
+      "university": "Midlands State University",
+      "country": "Zimbabwe"
+    },
+    {
+      "university": "University of Lagos",
+      "country": "Nigeria"
+    },
+    {
+      "university": "University of Gondar",
+      "country": "Ethiopia"
+    }
+  ],
+  "countryAuthorPairs": [
+    {
+      "country": "China",
+      "maleAuthor": "Yìchén Li",
+      "femaleAuthor": "Mèng yáo Zhang"
+    },
+    {
+      "country": "Ethiopia",
+      "maleAuthor": "Mohammed Bekele",
+      "femaleAuthor": "Daba Tadesse"
+    },
+    {
+      "country": "Germany",
+      "maleAuthor": "Noah Schmidt",
+      "femaleAuthor": "Emilia Schneider"
+    },
+    {
+      "country": "Nigeria",
+      "maleAuthor": "Musa Adebayo",
+      "femaleAuthor": "Blessing Chukwu"
+    },
+    {
+      "country": "Switzerland",
+      "maleAuthor": "Noah Meier",
+      "femaleAuthor": "Mia Keller"
+    },
+    {
+      "country": "UK",
+      "maleAuthor": "Oliver Brown",
+      "femaleAuthor": "Olivia Williams"
+    },
+    {
+      "country": "USA",
+      "maleAuthor": "Liam Smith",
+      "femaleAuthor": "Olivia Johnson"
+    },
+    {
+      "country": "Vietnam",
+      "maleAuthor": "Tuan Nguyễn",
+      "femaleAuthor": "Linh Trần"
+    },
+    {
+      "country": "Zimbabwe",
+      "maleAuthor": "Tatenda Moyo",
+      "femaleAuthor": "Tariro Ndlovu"
+    }
+  ]
+}

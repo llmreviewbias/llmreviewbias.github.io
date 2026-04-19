@@ -1,0 +1,28 @@
+{
+  "profiles": [
+    {
+      "author": "Liam Smith",
+      "affiliationType": "ranked_stronger",
+      "affiliation": "MIT",
+      "aboutAuthor": "Senior PI (20 years post-PhD)"
+    },
+    {
+      "author": "Liam Smith",
+      "affiliationType": "ranked_stronger",
+      "affiliation": "MIT",
+      "aboutAuthor": "Undergraduate Student"
+    },
+    {
+      "author": "Tatenda Moyo",
+      "affiliationType": "ranked_lower",
+      "affiliation": "Midlands State University",
+      "aboutAuthor": "Senior PI (20 years post-PhD)"
+    },
+    {
+      "author": "Tatenda Moyo",
+      "affiliationType": "ranked_lower",
+      "affiliation": "Midlands State University",
+      "aboutAuthor": "Undergraduate Student"
+    }
+  ]
+}

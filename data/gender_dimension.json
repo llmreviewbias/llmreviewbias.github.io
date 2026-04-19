@@ -1,0 +1,25 @@
+{
+  "maleAuthors": [
+    "David Brown",
+    "James Johnson",
+    "John Smith",
+    "Robert Williams"
+  ],
+  "femaleAuthors": [
+    "Elizabeth Brown",
+    "Jennifer Johnson",
+    "Linda Williams",
+    "Mary Smith"
+  ],
+  "affiliations": [
+    {
+      "affiliation": "MIT",
+      "country": "USA"
+    },
+    {
+      "affiliation": "University of Gondar",
+      "country": "Ethiopia"
+    }
+  ],
+  "entryCount": 24
+}
