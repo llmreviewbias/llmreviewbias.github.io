@@ -161,8 +161,12 @@ function renderHeatmap(modelKey) {
 
 function initHeatmapControls() {
   const select = document.getElementById('heatmap-model-select');
-  if (!select) return;
-  select.addEventListener('change', () => renderHeatmap(select.value));
+  const img    = document.getElementById('heatmap-img');
+  if (!select || !img) return;
+  select.addEventListener('change', () => {
+    img.src = 'images/heatmaps/' + select.value + '_all_llm_rating_top2bot2_netwinsorted-1.png';
+    img.alt = 'Affiliation bias heatmap — ' + select.options[select.selectedIndex].text;
+  });
 }
 
 /* ══════════════════════════════════════════
@@ -228,7 +232,7 @@ async function init() {
     });
     renderGenderChart('gen-bar-chart', genData);
 
-    renderHeatmap('gpt-4o-mini');
+    // Heatmap is image-based; switching handled by initHeatmapControls()
 
   } catch (err) {
     console.error('Failed to load bias data:', err);
