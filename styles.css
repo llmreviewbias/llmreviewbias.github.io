@@ -29,7 +29,7 @@ a {
 }
 
 .hero {
-  padding: 96px 24px 72px;
+  padding: 88px 24px 64px;
 }
 
 .container {
@@ -49,18 +49,35 @@ a {
 
 .title {
   margin: 0;
-  font-size: clamp(2.7rem, 5vw, 4.5rem);
-  line-height: 1.08;
-  font-weight: 700;
+  font-size: clamp(2rem, 3.8vw, 2.9rem);
+  line-height: 1.15;
+  font-weight: 600;
   letter-spacing: -0.04em;
 }
 
 .subtitle {
   margin: 20px auto 0;
   max-width: 920px;
-  font-size: clamp(1.3rem, 2.2vw, 2rem);
+  font-size: clamp(1.7rem, 3vw, 2.5rem);
   line-height: 1.35;
   font-weight: 500;
+}
+
+.authors {
+  margin-top: 24px;
+  color: #3f4a59;
+  font-size: 1.22rem;
+  line-height: 1.7;
+}
+
+.authors p {
+  margin: 0;
+}
+
+.affiliations {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 1.12rem;
 }
 
 .button-row {
@@ -97,7 +114,7 @@ a {
 
 @media (max-width: 640px) {
   .hero {
-    padding: 72px 18px 56px;
+    padding: 64px 18px 48px;
   }
 
   .button-row {
@@ -107,5 +124,13 @@ a {
   .action-button {
     width: 100%;
     justify-content: center;
+  }
+
+  .authors {
+    font-size: 1.04rem;
+  }
+
+  .affiliations {
+    font-size: 0.98rem;
   }
 }
