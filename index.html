@@ -2,61 +2,263 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="description"
-      content="Justice in Judgment: Unveiling (Hidden) Bias in LLM-assisted Peer Reviews."
-    />
+    <meta name="description" content="Justice in Judgment: Unveiling (Hidden) Bias in LLM-assisted Peer Reviews." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Justice in Judgment</title>
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+
+    <!-- ═══════════════ HERO ═══════════════ -->
     <section class="hero">
       <div class="container">
-        <p class="venue">ACL '26 Findings</p>
+        <span class="venue-badge">ACL 2026 Findings</span>
         <h1 class="title">Justice in Judgment</h1>
         <p class="subtitle">Unveiling (Hidden) Bias in LLM-assisted Peer Reviews</p>
+
         <div class="authors">
           <p>
-            Sai Suresh Marchala Vasu<sup>1</sup>, Ivaxi Sheth<sup>2</sup>,
-            Hui-Po Wang<sup>2</sup>, Ruta Binkyte<sup>2</sup>, Mario Fritz<sup>2</sup>
+            <a href="https://saisuresh.github.io" target="_blank" rel="noreferrer">Sai Suresh Macharla Vasu</a><sup>1</sup>,&ensp;
+            Ivaxi Sheth<sup>2</sup>,&ensp;
+            Hui-Po Wang<sup>2</sup>,&ensp;
+            Ruta Binkyte<sup>2</sup>,&ensp;
+            Mario Fritz<sup>2</sup>
           </p>
           <p class="affiliations">
-            <sup>1</sup>Saarland University,
+            <sup>1</sup>Saarland University &ensp;&middot;&ensp;
             <sup>2</sup>CISPA Helmholtz Center for Information Security
           </p>
         </div>
 
         <div class="button-row">
-          <a
-            class="action-button"
-            href="https://arxiv.org/abs/2509.13400"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span class="icon"><i class="fas fa-file-pdf"></i></span>
-            <span>Paper</span>
+          <a class="action-button" href="https://arxiv.org/abs/2509.13400" target="_blank" rel="noreferrer">
+            <span class="icon"><i class="fas fa-file-pdf"></i></span><span>Paper</span>
           </a>
-          <a
-            class="action-button"
-            href="https://github.com/ivaxi0s/llm-review-bias"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span class="icon"><i class="fab fa-github"></i></span>
-            <span>GitHub</span>
+          <a class="action-button" href="https://arxiv.org/abs/2509.13400" target="_blank" rel="noreferrer">
+            <span class="icon"><i class="fas fa-scroll"></i></span><span>arXiv</span>
+          </a>
+          <a class="action-button" href="https://github.com/ivaxi0s/llm-review-bias" target="_blank" rel="noreferrer">
+            <span class="icon"><i class="fab fa-github"></i></span><span>Code</span>
           </a>
         </div>
       </div>
     </section>
+
+    <!-- ═══════════════ ABSTRACT ═══════════════ -->
+    <section class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Abstract</h2>
+        <p class="abstract-text">
+          Large language models (LLMs) are increasingly used to assist in academic peer review, raising important questions about whether they replicate or amplify human biases.
+          In this work, we study <em>four axes of potential bias</em> in LLM-assisted reviewing: <strong>institutional affiliation</strong>, <strong>author gender</strong>, <strong>academic seniority</strong>, and <strong>publication history</strong>.
+          Using ICLR 2025 submissions as a testbed, we design a counterfactual evaluation framework: the same paper is reviewed by 9 LLMs under different author profiles, keeping all other factors fixed.
+          Our findings reveal that most models systematically assign higher scores to papers attributed to prestigious affiliations, senior researchers, and prolific authors — biases that mirror well-documented patterns in human review.
+          Gender bias is more nuanced, with models showing inconsistent directional effects.
+          These results highlight the risk of deploying LLMs in high-stakes scholarly decisions and call for bias-aware evaluation protocols.
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════ KEY FINDINGS ═══════════════ -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Key Findings</h2>
+        <div class="findings-grid">
+          <div class="finding-card">
+            <div class="finding-icon"><i class="fas fa-university"></i></div>
+            <div class="finding-stat">Up to 83%</div>
+            <div class="finding-label">of papers rated higher when attributed to a prestigious institution</div>
+            <div class="finding-sub">Gemini Flash Lite — affiliation bias</div>
+          </div>
+          <div class="finding-card">
+            <div class="finding-icon"><i class="fas fa-user-graduate"></i></div>
+            <div class="finding-stat">Up to 65%</div>
+            <div class="finding-label">of papers rated higher for Senior PI vs. undergraduate author</div>
+            <div class="finding-sub">Gemini Flash Lite — seniority bias</div>
+          </div>
+          <div class="finding-card">
+            <div class="finding-icon"><i class="fas fa-book-open"></i></div>
+            <div class="finding-stat">Up to 63%</div>
+            <div class="finding-label">of papers rated higher for authors with 100 top-tier publications</div>
+            <div class="finding-sub">QwQ — publication history bias</div>
+          </div>
+          <div class="finding-card">
+            <div class="finding-icon"><i class="fas fa-venus-mars"></i></div>
+            <div class="finding-stat">Inconsistent</div>
+            <div class="finding-label">gender bias — no single direction across all models</div>
+            <div class="finding-sub">9 models tested — gender bias</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ RESULTS ═══════════════ -->
+    <section class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Results</h2>
+        <p class="section-desc">
+          We evaluate 9 LLMs across four bias dimensions using ICLR 2025 papers. Each bar shows the percentage of papers where the advantaged group received a strictly higher LLM rating.
+        </p>
+
+        <!-- Tab navigation -->
+        <div class="tabs-nav" role="tablist">
+          <button class="tab-btn active" data-tab="affiliation" role="tab">Affiliation Bias</button>
+          <button class="tab-btn" data-tab="seniority" role="tab">Seniority Bias</button>
+          <button class="tab-btn" data-tab="publication" role="tab">Publication History</button>
+          <button class="tab-btn" data-tab="gender" role="tab">Gender Bias</button>
+        </div>
+
+        <!-- ── Affiliation Bias ── -->
+        <div id="tab-affiliation" class="tab-pane active">
+          <div class="chart-header">
+            <div>
+              <h3 class="chart-title">Institutional Affiliation Bias</h3>
+              <p class="chart-desc">% of papers receiving a higher LLM score when attributed to a <strong>prestigious institution</strong> vs. a less-ranked one (same paper, same author name).</p>
+            </div>
+          </div>
+          <div id="aff-bar-chart" class="bar-chart"></div>
+
+          <div class="heatmap-section">
+            <div class="heatmap-header">
+              <div>
+                <h3 class="chart-title">RS &times; RW Affiliation Matrix</h3>
+                <p class="chart-desc">Each cell shows the % of papers rated higher when attributed to the <strong>row affiliation (RS)</strong> over the <strong>column affiliation (RW)</strong>. Darker = stronger bias.</p>
+              </div>
+              <div class="heatmap-controls">
+                <label for="heatmap-model-select">Model:</label>
+                <select id="heatmap-model-select" class="dropdown">
+                  <option value="all">All Models (Average)</option>
+                </select>
+              </div>
+            </div>
+            <div id="affiliation-heatmap" class="heatmap-container"></div>
+            <div class="heatmap-legend">
+              <span>Low bias</span>
+              <div class="legend-gradient"></div>
+              <span>High bias</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── Seniority Bias ── -->
+        <div id="tab-seniority" class="tab-pane">
+          <div class="chart-header">
+            <div>
+              <h3 class="chart-title">Academic Seniority Bias</h3>
+              <p class="chart-desc">% of papers receiving a higher LLM score when attributed to a <strong>Senior PI (20+ years post-PhD)</strong> vs. an undergraduate student.</p>
+            </div>
+          </div>
+          <div id="sen-bar-chart" class="bar-chart"></div>
+        </div>
+
+        <!-- ── Publication History Bias ── -->
+        <div id="tab-publication" class="tab-pane">
+          <div class="chart-header">
+            <div>
+              <h3 class="chart-title">Publication History Bias</h3>
+              <p class="chart-desc">% of papers receiving a higher LLM score when attributed to an author with <strong>100 top-tier publications</strong> vs. 0 publications.</p>
+            </div>
+          </div>
+          <div id="pub-bar-chart" class="bar-chart"></div>
+        </div>
+
+        <!-- ── Gender Bias ── -->
+        <div id="tab-gender" class="tab-pane">
+          <div class="chart-header">
+            <div>
+              <h3 class="chart-title">Gender Bias</h3>
+              <p class="chart-desc">% of papers rated higher under a <strong>male</strong> vs. <strong>female</strong> author name. Results are mixed — neither direction dominates across all models.</p>
+            </div>
+          </div>
+          <div id="gen-bar-chart" class="bar-chart"></div>
+          <p class="chart-note">Note: Gender bias direction varies by model. Blue bars = male-biased; red bars = female-biased.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════ SETUP ═══════════════ -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Experimental Setup</h2>
+        <div class="setup-grid">
+          <div class="setup-card">
+            <i class="fas fa-database setup-icon"></i>
+            <h4>Dataset</h4>
+            <p>252 papers from ICLR 2025 (accepted &amp; rejected). Each paper reviewed under multiple author profiles per bias dimension.</p>
+          </div>
+          <div class="setup-card">
+            <i class="fas fa-robot setup-icon"></i>
+            <h4>9 LLMs Evaluated</h4>
+            <div class="model-list">
+              <span class="model-tag">GPT-4o-mini</span>
+              <span class="model-tag">Gemini Flash Lite</span>
+              <span class="model-tag">LLaMA 3.1-70B</span>
+              <span class="model-tag">LLaMA 3.1-8B</span>
+              <span class="model-tag">Mistral-Small-22B</span>
+              <span class="model-tag">Mistral-8B</span>
+              <span class="model-tag">DeepSeek-Qwen-32B</span>
+              <span class="model-tag">DeepSeek-R1-8B</span>
+              <span class="model-tag">QwQ</span>
+            </div>
+          </div>
+          <div class="setup-card">
+            <i class="fas fa-layer-group setup-icon"></i>
+            <h4>4 Bias Dimensions</h4>
+            <ul class="dim-list">
+              <li><strong>Affiliation</strong> — prestigious vs. less-ranked institutions</li>
+              <li><strong>Gender</strong> — male vs. female author names</li>
+              <li><strong>Seniority</strong> — Senior PI vs. undergraduate</li>
+              <li><strong>Publication History</strong> — 100 vs. 0 top-tier papers</li>
+            </ul>
+          </div>
+          <div class="setup-card">
+            <i class="fas fa-vials setup-icon"></i>
+            <h4>Evaluation Protocol</h4>
+            <p>Counterfactual design: identical paper content reviewed under different author metadata. LLM score compared directly between conditions for each paper.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ FOOTER ═══════════════ -->
+    <footer class="footer">
+      <div class="container">
+
+        <div class="footer-links">
+          <a href="https://arxiv.org/abs/2509.13400" target="_blank" rel="noreferrer"><i class="fas fa-file-pdf"></i></a>
+          <a href="https://github.com/ivaxi0s/llm-review-bias" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a>
+        </div>
+
+        <div class="bibtex-section">
+          <h4 class="bibtex-title">BibTeX</h4>
+          <div class="bibtex-wrapper">
+            <pre class="bibtex-code">@misc{vasu2025justicejudgmentunveilinghidden,
+  title   = {Justice in Judgment: Unveiling (Hidden) Bias in LLM-assisted Peer Reviews},
+  author  = {Sai Suresh Macharla Vasu and Ivaxi Sheth and Hui-Po Wang
+             and Ruta Binkyte and Mario Fritz},
+  year    = {2025},
+  eprint  = {2509.13400},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CY},
+  url     = {https://arxiv.org/abs/2509.13400}
+}</pre>
+            <button class="copy-btn" onclick="copyBibtex(this)" title="Copy BibTeX">
+              <i class="fas fa-copy"></i>
+            </button>
+          </div>
+        </div>
+
+        <p class="footer-license">
+          This website is licensed under a
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+        </p>
+        <p class="footer-credit">Website inspired by <a href="https://nerfies.github.io" target="_blank" rel="noreferrer">Nerfies</a>.</p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
   </body>
 </html>

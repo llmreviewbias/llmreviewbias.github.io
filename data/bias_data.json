@@ -1,0 +1,4509 @@
+{
+  "models": [
+    "deepseek-qwen-32b_hf",
+    "deepseek-r1-8b_hf",
+    "gemini_flashlite",
+    "gpt-4o-mini",
+    "llama3.1_70b_hf",
+    "llama3.1_8b_hf",
+    "mistral-small_22b_hf",
+    "mistral_8b_hf",
+    "qwq_hf"
+  ],
+  "model_labels": {
+    "deepseek-qwen-32b_hf": "DeepSeek-Qwen-32B",
+    "deepseek-r1-8b_hf": "DeepSeek-R1-8B",
+    "gemini_flashlite": "Gemini Flash Lite",
+    "gpt-4o-mini": "GPT-4o-mini",
+    "llama3.1_70b_hf": "LLaMA 3.1-70B",
+    "llama3.1_8b_hf": "LLaMA 3.1-8B",
+    "mistral-small_22b_hf": "Mistral-Small-22B",
+    "mistral_8b_hf": "Mistral-8B",
+    "qwq_hf": "QwQ"
+  },
+  "affiliation": {
+    "deepseek-qwen-32b_hf": {
+      "strong_wins": 130,
+      "weak_wins": 67,
+      "ties": 55,
+      "pct_strong_higher": 51.6,
+      "total": 252
+    },
+    "deepseek-r1-8b_hf": {
+      "strong_wins": 129,
+      "weak_wins": 71,
+      "ties": 52,
+      "pct_strong_higher": 51.2,
+      "total": 252
+    },
+    "gemini_flashlite": {
+      "strong_wins": 210,
+      "weak_wins": 16,
+      "ties": 26,
+      "pct_strong_higher": 83.3,
+      "total": 252
+    },
+    "gpt-4o-mini": {
+      "strong_wins": 141,
+      "weak_wins": 20,
+      "ties": 91,
+      "pct_strong_higher": 56.0,
+      "total": 252
+    },
+    "llama3.1_70b_hf": {
+      "strong_wins": 33,
+      "weak_wins": 5,
+      "ties": 214,
+      "pct_strong_higher": 13.1,
+      "total": 252
+    },
+    "llama3.1_8b_hf": {
+      "strong_wins": 41,
+      "weak_wins": 16,
+      "ties": 195,
+      "pct_strong_higher": 16.3,
+      "total": 252
+    },
+    "mistral-small_22b_hf": {
+      "strong_wins": 124,
+      "weak_wins": 20,
+      "ties": 108,
+      "pct_strong_higher": 49.2,
+      "total": 252
+    },
+    "mistral_8b_hf": {
+      "strong_wins": 51,
+      "weak_wins": 7,
+      "ties": 194,
+      "pct_strong_higher": 20.2,
+      "total": 252
+    },
+    "qwq_hf": {
+      "strong_wins": 185,
+      "weak_wins": 36,
+      "ties": 31,
+      "pct_strong_higher": 73.4,
+      "total": 252
+    }
+  },
+  "gender": {
+    "deepseek-qwen-32b_hf": {
+      "male_wins": 90,
+      "female_wins": 68,
+      "ties": 94,
+      "pct_male_higher": 35.7,
+      "pct_female_higher": 27.0,
+      "total": 252
+    },
+    "deepseek-r1-8b_hf": {
+      "male_wins": 81,
+      "female_wins": 78,
+      "ties": 93,
+      "pct_male_higher": 32.1,
+      "pct_female_higher": 31.0,
+      "total": 252
+    },
+    "gemini_flashlite": {
+      "male_wins": 96,
+      "female_wins": 81,
+      "ties": 75,
+      "pct_male_higher": 38.1,
+      "pct_female_higher": 32.1,
+      "total": 252
+    },
+    "gpt-4o-mini": {
+      "male_wins": 51,
+      "female_wins": 80,
+      "ties": 121,
+      "pct_male_higher": 20.2,
+      "pct_female_higher": 31.7,
+      "total": 252
+    },
+    "llama3.1_70b_hf": {
+      "male_wins": 10,
+      "female_wins": 17,
+      "ties": 225,
+      "pct_male_higher": 4.0,
+      "pct_female_higher": 6.7,
+      "total": 252
+    },
+    "llama3.1_8b_hf": {
+      "male_wins": 27,
+      "female_wins": 21,
+      "ties": 204,
+      "pct_male_higher": 10.7,
+      "pct_female_higher": 8.3,
+      "total": 252
+    },
+    "mistral-small_22b_hf": {
+      "male_wins": 43,
+      "female_wins": 71,
+      "ties": 138,
+      "pct_male_higher": 17.1,
+      "pct_female_higher": 28.2,
+      "total": 252
+    },
+    "mistral_8b_hf": {
+      "male_wins": 25,
+      "female_wins": 29,
+      "ties": 198,
+      "pct_male_higher": 9.9,
+      "pct_female_higher": 11.5,
+      "total": 252
+    },
+    "qwq_hf": {
+      "male_wins": 71,
+      "female_wins": 135,
+      "ties": 46,
+      "pct_male_higher": 28.2,
+      "pct_female_higher": 53.6,
+      "total": 252
+    }
+  },
+  "seniority": {
+    "deepseek-qwen-32b_hf": {
+      "senior_wins": 41,
+      "junior_wins": 18,
+      "ties": 67,
+      "pct_senior_higher": 32.5,
+      "total": 126
+    },
+    "deepseek-r1-8b_hf": {
+      "senior_wins": 38,
+      "junior_wins": 15,
+      "ties": 73,
+      "pct_senior_higher": 30.2,
+      "total": 126
+    },
+    "gemini_flashlite": {
+      "senior_wins": 82,
+      "junior_wins": 7,
+      "ties": 37,
+      "pct_senior_higher": 65.1,
+      "total": 126
+    },
+    "gpt-4o-mini": {
+      "senior_wins": 43,
+      "junior_wins": 6,
+      "ties": 77,
+      "pct_senior_higher": 34.1,
+      "total": 126
+    },
+    "llama3.1_70b_hf": {
+      "senior_wins": 13,
+      "junior_wins": 1,
+      "ties": 112,
+      "pct_senior_higher": 10.3,
+      "total": 126
+    },
+    "llama3.1_8b_hf": {
+      "senior_wins": 20,
+      "junior_wins": 4,
+      "ties": 102,
+      "pct_senior_higher": 15.9,
+      "total": 126
+    },
+    "mistral-small_22b_hf": {
+      "senior_wins": 70,
+      "junior_wins": 2,
+      "ties": 54,
+      "pct_senior_higher": 55.6,
+      "total": 126
+    },
+    "mistral_8b_hf": {
+      "senior_wins": 30,
+      "junior_wins": 0,
+      "ties": 96,
+      "pct_senior_higher": 23.8,
+      "total": 126
+    },
+    "qwq_hf": {
+      "senior_wins": 61,
+      "junior_wins": 12,
+      "ties": 53,
+      "pct_senior_higher": 48.4,
+      "total": 126
+    }
+  },
+  "publication": {
+    "deepseek-qwen-32b_hf": {
+      "high_pub_wins": 42,
+      "low_pub_wins": 10,
+      "ties": 74,
+      "pct_high_pub_higher": 33.3,
+      "total": 126
+    },
+    "deepseek-r1-8b_hf": {
+      "high_pub_wins": 44,
+      "low_pub_wins": 7,
+      "ties": 75,
+      "pct_high_pub_higher": 34.9,
+      "total": 126
+    },
+    "gemini_flashlite": {
+      "high_pub_wins": 55,
+      "low_pub_wins": 15,
+      "ties": 56,
+      "pct_high_pub_higher": 43.7,
+      "total": 126
+    },
+    "gpt-4o-mini": {
+      "high_pub_wins": 78,
+      "low_pub_wins": 1,
+      "ties": 47,
+      "pct_high_pub_higher": 61.9,
+      "total": 126
+    },
+    "llama3.1_70b_hf": {
+      "high_pub_wins": 33,
+      "low_pub_wins": 1,
+      "ties": 92,
+      "pct_high_pub_higher": 26.2,
+      "total": 126
+    },
+    "llama3.1_8b_hf": {
+      "high_pub_wins": 22,
+      "low_pub_wins": 1,
+      "ties": 103,
+      "pct_high_pub_higher": 17.5,
+      "total": 126
+    },
+    "mistral-small_22b_hf": {
+      "high_pub_wins": 66,
+      "low_pub_wins": 2,
+      "ties": 58,
+      "pct_high_pub_higher": 52.4,
+      "total": 126
+    },
+    "mistral_8b_hf": {
+      "high_pub_wins": 18,
+      "low_pub_wins": 4,
+      "ties": 104,
+      "pct_high_pub_higher": 14.3,
+      "total": 126
+    },
+    "qwq_hf": {
+      "high_pub_wins": 79,
+      "low_pub_wins": 2,
+      "ties": 45,
+      "pct_high_pub_higher": 62.7,
+      "total": 126
+    }
+  },
+  "affiliation_heatmap": {
+    "strong_affs": [
+      "Carnegie Mellon University",
+      "ETH Zurich",
+      "MIT",
+      "Max Planck Institute for Intelligent Systems",
+      "Peking University",
+      "TU Munich",
+      "Tsinghua University",
+      "University of Cambridge"
+    ],
+    "weak_affs": [
+      "Dong A University",
+      "Henan University",
+      "Midlands State University",
+      "Savannah State University",
+      "Texas A&M University\u2013Kingsville",
+      "University of Gondar",
+      "University of Lagos",
+      "University of Rostock"
+    ],
+    "deepseek-qwen-32b_hf": {
+      "Carnegie Mellon University": {
+        "Dong A University": {
+          "sw": 49,
+          "ww": 33,
+          "ties": 170,
+          "pct": 19.4,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 59,
+          "ww": 34,
+          "ties": 159,
+          "pct": 23.4,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 66,
+          "ww": 29,
+          "ties": 157,
+          "pct": 26.2,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 76,
+          "ww": 27,
+          "ties": 149,
+          "pct": 30.2,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 63,
+          "ww": 34,
+          "ties": 155,
+          "pct": 25.0,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 49,
+          "ww": 30,
+          "ties": 173,
+          "pct": 19.4,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 64,
+          "ww": 33,
+          "ties": 155,
+          "pct": 25.4,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 52,
+          "ww": 33,
+          "ties": 167,
+          "pct": 20.6,
+          "total": 252
+        }
+      },
+      "ETH Zurich": {
+        "Dong A University": {
+          "sw": 49,
+          "ww": 35,
+          "ties": 168,
+          "pct": 19.4,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 54,
+          "ww": 34,
+          "ties": 164,
+          "pct": 21.4,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 63,
+          "ww": 35,
+          "ties": 154,
+          "pct": 25.0,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 82,
+          "ww": 35,
+          "ties": 135,
+          "pct": 32.5,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 58,
+          "ww": 35,
+          "ties": 159,
+          "pct": 23.0,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 52,
+          "ww": 39,
+          "ties": 161,
+          "pct": 20.6,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 62,
+          "ww": 37,
+          "ties": 153,
+          "pct": 24.6,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 51,
+          "ww": 33,
+          "ties": 168,
+          "pct": 20.2,
+          "total": 252
+        }
+      },
+      "MIT": {
+        "Dong A University": {
+          "sw": 46,
+          "ww": 53,
+          "ties": 153,
+          "pct": 18.3,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 46,
+          "ww": 42,
+          "ties": 164,
+          "pct": 18.3,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 56,
+          "ww": 46,
+          "ties": 150,
+          "pct": 22.2,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 61,
+          "ww": 41,
+          "ties": 150,
+          "pct": 24.2,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 50,
+          "ww": 44,
+          "ties": 158,
+          "pct": 19.8,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 42,
+          "ww": 49,
+          "ties": 161,
+          "pct": 16.7,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 48,
+          "ww": 46,
+          "ties": 158,
+          "pct": 19.0,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 39,
+          "ww": 45,
+          "ties": 168,
+          "pct": 15.5,
+          "total": 252
+        }
+      },
+      "Max Planck Institute for Intelligent Systems": {
+        "Dong A University": {
+          "sw": 53,
+          "ww": 36,
+          "ties": 163,
+          "pct": 21.0,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 58,
+          "ww": 32,
+          "ties": 162,
+          "pct": 23.0,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 67,
+          "ww": 37,
+          "ties": 148,
+          "pct": 26.6,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 76,
+          "ww": 31,
+          "ties": 145,
+          "pct": 30.2,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 59,
+          "ww": 30,
+          "ties": 163,
+          "pct": 23.4,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 51,
+          "ww": 36,
+          "ties": 165,
+          "pct": 20.2,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 61,
+          "ww": 32,
+          "ties": 159,
+          "pct": 24.2,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 53,
+          "ww": 35,
+          "ties": 164,
+          "pct": 21.0,
+          "total": 252
+        }
+      },
+      "Peking University": {
+        "Dong A University": {
+          "sw": 39,
+          "ww": 45,
+          "ties": 168,
+          "pct": 15.5,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 45,
+          "ww": 42,
+          "ties": 165,
+          "pct": 17.9,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 59,
+          "ww": 46,
+          "ties": 147,
+          "pct": 23.4,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 60,
+          "ww": 30,
+          "ties": 162,
+          "pct": 23.8,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 51,
+          "ww": 43,
+          "ties": 158,
+          "pct": 20.2,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 41,
+          "ww": 44,
+          "ties": 167,
+          "pct": 16.3,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 50,
+          "ww": 39,
+          "ties": 163,
+          "pct": 19.8,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 44,
+          "ww": 44,
+          "ties": 164,
+          "pct": 17.5,
+          "total": 252
+        }
+      },
+      "TU Munich": {
+        "Dong A University": {
+          "sw": 48,
+          "ww": 50,
+          "ties": 154,
+          "pct": 19.0,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 48,
+          "ww": 38,
+          "ties": 166,
+          "pct": 19.0,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 55,
+          "ww": 37,
+          "ties": 160,
+          "pct": 21.8,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 65,
+          "ww": 39,
+          "ties": 148,
+          "pct": 25.8,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 51,
+          "ww": 35,
+          "ties": 166,
+          "pct": 20.2,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 44,
+          "ww": 44,
+          "ties": 164,
+          "pct": 17.5,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 53,
+          "ww": 40,
+          "ties": 159,
+          "pct": 21.0,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 42,
+          "ww": 38,
+          "ties": 172,
+          "pct": 16.7,
+          "total": 252
+        }
+      },
+      "Tsinghua University": {
+        "Dong A University": {
+          "sw": 47,
+          "ww": 34,
+          "ties": 171,
+          "pct": 18.7,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 55,
+          "ww": 30,
+          "ties": 167,
+          "pct": 21.8,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 64,
+          "ww": 31,
+          "ties": 157,
+          "pct": 25.4,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 72,
+          "ww": 28,
+          "ties": 152,
+          "pct": 28.6,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 60,
+          "ww": 33,
+          "ties": 159,
+          "pct": 23.8,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 49,
+          "ww": 39,
+          "ties": 164,
+          "pct": 19.4,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 56,
+          "ww": 31,
+          "ties": 165,
+          "pct": 22.2,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 46,
+          "ww": 28,
+          "ties": 178,
+          "pct": 18.3,
+          "total": 252
+        }
+      },
+      "University of Cambridge": {
+        "Dong A University": {
+          "sw": 52,
+          "ww": 43,
+          "ties": 157,
+          "pct": 20.6,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 53,
+          "ww": 34,
+          "ties": 165,
+          "pct": 21.0,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 56,
+          "ww": 31,
+          "ties": 165,
+          "pct": 22.2,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 69,
+          "ww": 30,
+          "ties": 153,
+          "pct": 27.4,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 60,
+          "ww": 37,
+          "ties": 155,
+          "pct": 23.8,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 50,
+          "ww": 38,
+          "ties": 164,
+          "pct": 19.8,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 65,
+          "ww": 41,
+          "ties": 146,
+          "pct": 25.8,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 52,
+          "ww": 38,
+          "ties": 162,
+          "pct": 20.6,
+          "total": 252
+        }
+      }
+    },
+    "deepseek-r1-8b_hf": {
+      "Carnegie Mellon University": {
+        "Dong A University": {
+          "sw": 52,
+          "ww": 41,
+          "ties": 159,
+          "pct": 20.6,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 41,
+          "ww": 42,
+          "ties": 169,
+          "pct": 16.3,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 63,
+          "ww": 39,
+          "ties": 150,
+          "pct": 25.0,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 65,
+          "ww": 30,
+          "ties": 157,
+          "pct": 25.8,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 59,
+          "ww": 42,
+          "ties": 151,
+          "pct": 23.4,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 57,
+          "ww": 42,
+          "ties": 153,
+          "pct": 22.6,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 58,
+          "ww": 41,
+          "ties": 153,
+          "pct": 23.0,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 52,
+          "ww": 41,
+          "ties": 159,
+          "pct": 20.6,
+          "total": 252
+        }
+      },
+      "ETH Zurich": {
+        "Dong A University": {
+          "sw": 56,
+          "ww": 38,
+          "ties": 158,
+          "pct": 22.2,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 38,
+          "ww": 31,
+          "ties": 183,
+          "pct": 15.1,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 60,
+          "ww": 29,
+          "ties": 163,
+          "pct": 23.8,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 68,
+          "ww": 23,
+          "ties": 161,
+          "pct": 27.0,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 58,
+          "ww": 35,
+          "ties": 159,
+          "pct": 23.0,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 62,
+          "ww": 35,
+          "ties": 155,
+          "pct": 24.6,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 56,
+          "ww": 39,
+          "ties": 157,
+          "pct": 22.2,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 50,
+          "ww": 28,
+          "ties": 174,
+          "pct": 19.8,
+          "total": 252
+        }
+      },
+      "MIT": {
+        "Dong A University": {
+          "sw": 57,
+          "ww": 42,
+          "ties": 153,
+          "pct": 22.6,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 44,
+          "ww": 40,
+          "ties": 168,
+          "pct": 17.5,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 60,
+          "ww": 31,
+          "ties": 161,
+          "pct": 23.8,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 70,
+          "ww": 32,
+          "ties": 150,
+          "pct": 27.8,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 60,
+          "ww": 42,
+          "ties": 150,
+          "pct": 23.8,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 57,
+          "ww": 36,
+          "ties": 159,
+          "pct": 22.6,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 56,
+          "ww": 39,
+          "ties": 157,
+          "pct": 22.2,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 51,
+          "ww": 37,
+          "ties": 164,
+          "pct": 20.2,
+          "total": 252
+        }
+      },
+      "Max Planck Institute for Intelligent Systems": {
+        "Dong A University": {
+          "sw": 51,
+          "ww": 41,
+          "ties": 160,
+          "pct": 20.2,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 42,
+          "ww": 43,
+          "ties": 167,
+          "pct": 16.7,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 63,
+          "ww": 40,
+          "ties": 149,
+          "pct": 25.0,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 64,
+          "ww": 30,
+          "ties": 158,
+          "pct": 25.4,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 56,
+          "ww": 38,
+          "ties": 158,
+          "pct": 22.2,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 57,
+          "ww": 44,
+          "ties": 151,
+          "pct": 22.6,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 50,
+          "ww": 37,
+          "ties": 165,
+          "pct": 19.8,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 50,
+          "ww": 39,
+          "ties": 163,
+          "pct": 19.8,
+          "total": 252
+        }
+      },
+      "Peking University": {
+        "Dong A University": {
+          "sw": 44,
+          "ww": 51,
+          "ties": 157,
+          "pct": 17.5,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 42,
+          "ww": 58,
+          "ties": 152,
+          "pct": 16.7,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 52,
+          "ww": 48,
+          "ties": 152,
+          "pct": 20.6,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 61,
+          "ww": 45,
+          "ties": 146,
+          "pct": 24.2,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 48,
+          "ww": 51,
+          "ties": 153,
+          "pct": 19.0,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 48,
+          "ww": 51,
+          "ties": 153,
+          "pct": 19.0,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 45,
+          "ww": 50,
+          "ties": 157,
+          "pct": 17.9,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 46,
+          "ww": 54,
+          "ties": 152,
+          "pct": 18.3,
+          "total": 252
+        }
+      },
+      "TU Munich": {
+        "Dong A University": {
+          "sw": 51,
+          "ww": 34,
+          "ties": 167,
+          "pct": 20.2,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 42,
+          "ww": 35,
+          "ties": 175,
+          "pct": 16.7,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 62,
+          "ww": 30,
+          "ties": 160,
+          "pct": 24.6,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 67,
+          "ww": 28,
+          "ties": 157,
+          "pct": 26.6,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 59,
+          "ww": 35,
+          "ties": 158,
+          "pct": 23.4,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 54,
+          "ww": 31,
+          "ties": 167,
+          "pct": 21.4,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 56,
+          "ww": 33,
+          "ties": 163,
+          "pct": 22.2,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 52,
+          "ww": 31,
+          "ties": 169,
+          "pct": 20.6,
+          "total": 252
+        }
+      },
+      "Tsinghua University": {
+        "Dong A University": {
+          "sw": 45,
+          "ww": 42,
+          "ties": 165,
+          "pct": 17.9,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 40,
+          "ww": 41,
+          "ties": 171,
+          "pct": 15.9,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 60,
+          "ww": 40,
+          "ties": 152,
+          "pct": 23.8,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 61,
+          "ww": 29,
+          "ties": 162,
+          "pct": 24.2,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 50,
+          "ww": 36,
+          "ties": 166,
+          "pct": 19.8,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 51,
+          "ww": 38,
+          "ties": 163,
+          "pct": 20.2,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 48,
+          "ww": 39,
+          "ties": 165,
+          "pct": 19.0,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 49,
+          "ww": 44,
+          "ties": 159,
+          "pct": 19.4,
+          "total": 252
+        }
+      },
+      "University of Cambridge": {
+        "Dong A University": {
+          "sw": 49,
+          "ww": 43,
+          "ties": 160,
+          "pct": 19.4,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 39,
+          "ww": 44,
+          "ties": 169,
+          "pct": 15.5,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 59,
+          "ww": 37,
+          "ties": 156,
+          "pct": 23.4,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 59,
+          "ww": 33,
+          "ties": 160,
+          "pct": 23.4,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 58,
+          "ww": 43,
+          "ties": 151,
+          "pct": 23.0,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 54,
+          "ww": 42,
+          "ties": 156,
+          "pct": 21.4,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 54,
+          "ww": 43,
+          "ties": 155,
+          "pct": 21.4,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 50,
+          "ww": 43,
+          "ties": 159,
+          "pct": 19.8,
+          "total": 252
+        }
+      }
+    },
+    "gemini_flashlite": {
+      "Carnegie Mellon University": {
+        "Dong A University": {
+          "sw": 91,
+          "ww": 25,
+          "ties": 136,
+          "pct": 36.1,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 100,
+          "ww": 25,
+          "ties": 127,
+          "pct": 39.7,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 123,
+          "ww": 14,
+          "ties": 115,
+          "pct": 48.8,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 121,
+          "ww": 18,
+          "ties": 113,
+          "pct": 48.0,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 89,
+          "ww": 28,
+          "ties": 135,
+          "pct": 35.3,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 112,
+          "ww": 17,
+          "ties": 123,
+          "pct": 44.4,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 111,
+          "ww": 20,
+          "ties": 121,
+          "pct": 44.0,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 74,
+          "ww": 37,
+          "ties": 141,
+          "pct": 29.4,
+          "total": 252
+        }
+      },
+      "ETH Zurich": {
+        "Dong A University": {
+          "sw": 90,
+          "ww": 24,
+          "ties": 138,
+          "pct": 35.7,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 97,
+          "ww": 25,
+          "ties": 130,
+          "pct": 38.5,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 124,
+          "ww": 15,
+          "ties": 113,
+          "pct": 49.2,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 117,
+          "ww": 14,
+          "ties": 121,
+          "pct": 46.4,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 90,
+          "ww": 24,
+          "ties": 138,
+          "pct": 35.7,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 118,
+          "ww": 20,
+          "ties": 114,
+          "pct": 46.8,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 103,
+          "ww": 13,
+          "ties": 136,
+          "pct": 40.9,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 78,
+          "ww": 42,
+          "ties": 132,
+          "pct": 31.0,
+          "total": 252
+        }
+      },
+      "MIT": {
+        "Dong A University": {
+          "sw": 91,
+          "ww": 23,
+          "ties": 138,
+          "pct": 36.1,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 94,
+          "ww": 20,
+          "ties": 138,
+          "pct": 37.3,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 122,
+          "ww": 12,
+          "ties": 118,
+          "pct": 48.4,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 115,
+          "ww": 16,
+          "ties": 121,
+          "pct": 45.6,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 87,
+          "ww": 24,
+          "ties": 141,
+          "pct": 34.5,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 110,
+          "ww": 19,
+          "ties": 123,
+          "pct": 43.7,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 102,
+          "ww": 15,
+          "ties": 135,
+          "pct": 40.5,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 69,
+          "ww": 38,
+          "ties": 145,
+          "pct": 27.4,
+          "total": 252
+        }
+      },
+      "Max Planck Institute for Intelligent Systems": {
+        "Dong A University": {
+          "sw": 89,
+          "ww": 25,
+          "ties": 138,
+          "pct": 35.3,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 90,
+          "ww": 23,
+          "ties": 139,
+          "pct": 35.7,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 126,
+          "ww": 15,
+          "ties": 111,
+          "pct": 50.0,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 115,
+          "ww": 15,
+          "ties": 122,
+          "pct": 45.6,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 90,
+          "ww": 24,
+          "ties": 138,
+          "pct": 35.7,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 113,
+          "ww": 16,
+          "ties": 123,
+          "pct": 44.8,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 113,
+          "ww": 24,
+          "ties": 115,
+          "pct": 44.8,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 77,
+          "ww": 41,
+          "ties": 134,
+          "pct": 30.6,
+          "total": 252
+        }
+      },
+      "Peking University": {
+        "Dong A University": {
+          "sw": 72,
+          "ww": 26,
+          "ties": 154,
+          "pct": 28.6,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 89,
+          "ww": 33,
+          "ties": 130,
+          "pct": 35.3,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 112,
+          "ww": 24,
+          "ties": 116,
+          "pct": 44.4,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 112,
+          "ww": 25,
+          "ties": 115,
+          "pct": 44.4,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 84,
+          "ww": 34,
+          "ties": 134,
+          "pct": 33.3,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 107,
+          "ww": 21,
+          "ties": 124,
+          "pct": 42.5,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 93,
+          "ww": 24,
+          "ties": 135,
+          "pct": 36.9,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 68,
+          "ww": 47,
+          "ties": 137,
+          "pct": 27.0,
+          "total": 252
+        }
+      },
+      "TU Munich": {
+        "Dong A University": {
+          "sw": 87,
+          "ww": 19,
+          "ties": 146,
+          "pct": 34.5,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 95,
+          "ww": 25,
+          "ties": 132,
+          "pct": 37.7,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 123,
+          "ww": 17,
+          "ties": 112,
+          "pct": 48.8,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 120,
+          "ww": 18,
+          "ties": 114,
+          "pct": 47.6,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 88,
+          "ww": 25,
+          "ties": 139,
+          "pct": 34.9,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 110,
+          "ww": 13,
+          "ties": 129,
+          "pct": 43.7,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 105,
+          "ww": 16,
+          "ties": 131,
+          "pct": 41.7,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 76,
+          "ww": 36,
+          "ties": 140,
+          "pct": 30.2,
+          "total": 252
+        }
+      },
+      "Tsinghua University": {
+        "Dong A University": {
+          "sw": 78,
+          "ww": 32,
+          "ties": 142,
+          "pct": 31.0,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 85,
+          "ww": 33,
+          "ties": 134,
+          "pct": 33.7,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 109,
+          "ww": 25,
+          "ties": 118,
+          "pct": 43.3,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 109,
+          "ww": 32,
+          "ties": 111,
+          "pct": 43.3,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 78,
+          "ww": 36,
+          "ties": 138,
+          "pct": 31.0,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 98,
+          "ww": 22,
+          "ties": 132,
+          "pct": 38.9,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 90,
+          "ww": 22,
+          "ties": 140,
+          "pct": 35.7,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 69,
+          "ww": 54,
+          "ties": 129,
+          "pct": 27.4,
+          "total": 252
+        }
+      },
+      "University of Cambridge": {
+        "Dong A University": {
+          "sw": 89,
+          "ww": 28,
+          "ties": 135,
+          "pct": 35.3,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 92,
+          "ww": 28,
+          "ties": 132,
+          "pct": 36.5,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 122,
+          "ww": 19,
+          "ties": 111,
+          "pct": 48.4,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 110,
+          "ww": 21,
+          "ties": 121,
+          "pct": 43.7,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 84,
+          "ww": 29,
+          "ties": 139,
+          "pct": 33.3,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 107,
+          "ww": 19,
+          "ties": 126,
+          "pct": 42.5,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 103,
+          "ww": 23,
+          "ties": 126,
+          "pct": 40.9,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 70,
+          "ww": 43,
+          "ties": 139,
+          "pct": 27.8,
+          "total": 252
+        }
+      }
+    },
+    "gpt-4o-mini": {
+      "Carnegie Mellon University": {
+        "Dong A University": {
+          "sw": 59,
+          "ww": 15,
+          "ties": 178,
+          "pct": 23.4,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 57,
+          "ww": 18,
+          "ties": 177,
+          "pct": 22.6,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 70,
+          "ww": 16,
+          "ties": 166,
+          "pct": 27.8,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 68,
+          "ww": 15,
+          "ties": 169,
+          "pct": 27.0,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 52,
+          "ww": 20,
+          "ties": 180,
+          "pct": 20.6,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 61,
+          "ww": 15,
+          "ties": 176,
+          "pct": 24.2,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 48,
+          "ww": 19,
+          "ties": 185,
+          "pct": 19.0,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 35,
+          "ww": 31,
+          "ties": 186,
+          "pct": 13.9,
+          "total": 252
+        }
+      },
+      "ETH Zurich": {
+        "Dong A University": {
+          "sw": 66,
+          "ww": 20,
+          "ties": 166,
+          "pct": 26.2,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 60,
+          "ww": 18,
+          "ties": 174,
+          "pct": 23.8,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 76,
+          "ww": 22,
+          "ties": 154,
+          "pct": 30.2,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 75,
+          "ww": 16,
+          "ties": 161,
+          "pct": 29.8,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 54,
+          "ww": 19,
+          "ties": 179,
+          "pct": 21.4,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 61,
+          "ww": 13,
+          "ties": 178,
+          "pct": 24.2,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 55,
+          "ww": 19,
+          "ties": 178,
+          "pct": 21.8,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 35,
+          "ww": 30,
+          "ties": 187,
+          "pct": 13.9,
+          "total": 252
+        }
+      },
+      "MIT": {
+        "Dong A University": {
+          "sw": 78,
+          "ww": 17,
+          "ties": 157,
+          "pct": 31.0,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 75,
+          "ww": 21,
+          "ties": 156,
+          "pct": 29.8,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 81,
+          "ww": 15,
+          "ties": 156,
+          "pct": 32.1,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 84,
+          "ww": 15,
+          "ties": 153,
+          "pct": 33.3,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 67,
+          "ww": 19,
+          "ties": 166,
+          "pct": 26.6,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 67,
+          "ww": 10,
+          "ties": 175,
+          "pct": 26.6,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 65,
+          "ww": 20,
+          "ties": 167,
+          "pct": 25.8,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 47,
+          "ww": 31,
+          "ties": 174,
+          "pct": 18.7,
+          "total": 252
+        }
+      },
+      "Max Planck Institute for Intelligent Systems": {
+        "Dong A University": {
+          "sw": 64,
+          "ww": 16,
+          "ties": 172,
+          "pct": 25.4,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 67,
+          "ww": 23,
+          "ties": 162,
+          "pct": 26.6,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 75,
+          "ww": 21,
+          "ties": 156,
+          "pct": 29.8,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 78,
+          "ww": 19,
+          "ties": 155,
+          "pct": 31.0,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 58,
+          "ww": 19,
+          "ties": 175,
+          "pct": 23.0,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 65,
+          "ww": 17,
+          "ties": 170,
+          "pct": 25.8,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 59,
+          "ww": 17,
+          "ties": 176,
+          "pct": 23.4,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 44,
+          "ww": 33,
+          "ties": 175,
+          "pct": 17.5,
+          "total": 252
+        }
+      },
+      "Peking University": {
+        "Dong A University": {
+          "sw": 56,
+          "ww": 22,
+          "ties": 174,
+          "pct": 22.2,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 54,
+          "ww": 26,
+          "ties": 172,
+          "pct": 21.4,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 69,
+          "ww": 29,
+          "ties": 154,
+          "pct": 27.4,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 67,
+          "ww": 27,
+          "ties": 158,
+          "pct": 26.6,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 53,
+          "ww": 31,
+          "ties": 168,
+          "pct": 21.0,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 60,
+          "ww": 25,
+          "ties": 167,
+          "pct": 23.8,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 51,
+          "ww": 32,
+          "ties": 169,
+          "pct": 20.2,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 35,
+          "ww": 45,
+          "ties": 172,
+          "pct": 13.9,
+          "total": 252
+        }
+      },
+      "TU Munich": {
+        "Dong A University": {
+          "sw": 66,
+          "ww": 24,
+          "ties": 162,
+          "pct": 26.2,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 65,
+          "ww": 23,
+          "ties": 164,
+          "pct": 25.8,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 73,
+          "ww": 19,
+          "ties": 160,
+          "pct": 29.0,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 76,
+          "ww": 21,
+          "ties": 155,
+          "pct": 30.2,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 58,
+          "ww": 22,
+          "ties": 172,
+          "pct": 23.0,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 66,
+          "ww": 20,
+          "ties": 166,
+          "pct": 26.2,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 55,
+          "ww": 26,
+          "ties": 171,
+          "pct": 21.8,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 36,
+          "ww": 33,
+          "ties": 183,
+          "pct": 14.3,
+          "total": 252
+        }
+      },
+      "Tsinghua University": {
+        "Dong A University": {
+          "sw": 52,
+          "ww": 27,
+          "ties": 173,
+          "pct": 20.6,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 49,
+          "ww": 25,
+          "ties": 178,
+          "pct": 19.4,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 58,
+          "ww": 27,
+          "ties": 167,
+          "pct": 23.0,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 58,
+          "ww": 26,
+          "ties": 168,
+          "pct": 23.0,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 42,
+          "ww": 29,
+          "ties": 181,
+          "pct": 16.7,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 48,
+          "ww": 22,
+          "ties": 182,
+          "pct": 19.0,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 42,
+          "ww": 32,
+          "ties": 178,
+          "pct": 16.7,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 29,
+          "ww": 43,
+          "ties": 180,
+          "pct": 11.5,
+          "total": 252
+        }
+      },
+      "University of Cambridge": {
+        "Dong A University": {
+          "sw": 53,
+          "ww": 17,
+          "ties": 182,
+          "pct": 21.0,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 56,
+          "ww": 23,
+          "ties": 173,
+          "pct": 22.2,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 60,
+          "ww": 17,
+          "ties": 175,
+          "pct": 23.8,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 63,
+          "ww": 18,
+          "ties": 171,
+          "pct": 25.0,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 51,
+          "ww": 27,
+          "ties": 174,
+          "pct": 20.2,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 59,
+          "ww": 23,
+          "ties": 170,
+          "pct": 23.4,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 46,
+          "ww": 26,
+          "ties": 180,
+          "pct": 18.3,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 32,
+          "ww": 40,
+          "ties": 180,
+          "pct": 12.7,
+          "total": 252
+        }
+      }
+    },
+    "llama3.1_70b_hf": {
+      "Carnegie Mellon University": {
+        "Dong A University": {
+          "sw": 7,
+          "ww": 6,
+          "ties": 239,
+          "pct": 2.8,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 10,
+          "ww": 7,
+          "ties": 235,
+          "pct": 4.0,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 12,
+          "ww": 3,
+          "ties": 237,
+          "pct": 4.8,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 12,
+          "ww": 3,
+          "ties": 237,
+          "pct": 4.8,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 9,
+          "ww": 3,
+          "ties": 240,
+          "pct": 3.6,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 10,
+          "ww": 4,
+          "ties": 238,
+          "pct": 4.0,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 8,
+          "ww": 3,
+          "ties": 241,
+          "pct": 3.2,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 8,
+          "ww": 5,
+          "ties": 239,
+          "pct": 3.2,
+          "total": 252
+        }
+      },
+      "ETH Zurich": {
+        "Dong A University": {
+          "sw": 8,
+          "ww": 3,
+          "ties": 241,
+          "pct": 3.2,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 11,
+          "ww": 3,
+          "ties": 238,
+          "pct": 4.4,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 14,
+          "ww": 2,
+          "ties": 236,
+          "pct": 5.6,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 14,
+          "ww": 2,
+          "ties": 236,
+          "pct": 5.6,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 14,
+          "ww": 6,
+          "ties": 232,
+          "pct": 5.6,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 12,
+          "ww": 1,
+          "ties": 239,
+          "pct": 4.8,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 10,
+          "ww": 2,
+          "ties": 240,
+          "pct": 4.0,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 10,
+          "ww": 4,
+          "ties": 238,
+          "pct": 4.0,
+          "total": 252
+        }
+      },
+      "MIT": {
+        "Dong A University": {
+          "sw": 11,
+          "ww": 6,
+          "ties": 235,
+          "pct": 4.4,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 15,
+          "ww": 5,
+          "ties": 232,
+          "pct": 6.0,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 16,
+          "ww": 2,
+          "ties": 234,
+          "pct": 6.3,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 15,
+          "ww": 1,
+          "ties": 236,
+          "pct": 6.0,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 14,
+          "ww": 4,
+          "ties": 234,
+          "pct": 5.6,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 15,
+          "ww": 3,
+          "ties": 234,
+          "pct": 6.0,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 12,
+          "ww": 3,
+          "ties": 237,
+          "pct": 4.8,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 10,
+          "ww": 3,
+          "ties": 239,
+          "pct": 4.0,
+          "total": 252
+        }
+      },
+      "Max Planck Institute for Intelligent Systems": {
+        "Dong A University": {
+          "sw": 5,
+          "ww": 5,
+          "ties": 242,
+          "pct": 2.0,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 9,
+          "ww": 6,
+          "ties": 237,
+          "pct": 3.6,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 10,
+          "ww": 2,
+          "ties": 240,
+          "pct": 4.0,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 10,
+          "ww": 1,
+          "ties": 241,
+          "pct": 4.0,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 9,
+          "ww": 5,
+          "ties": 238,
+          "pct": 3.6,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 10,
+          "ww": 4,
+          "ties": 238,
+          "pct": 4.0,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 8,
+          "ww": 4,
+          "ties": 240,
+          "pct": 3.2,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 7,
+          "ww": 5,
+          "ties": 240,
+          "pct": 2.8,
+          "total": 252
+        }
+      },
+      "Peking University": {
+        "Dong A University": {
+          "sw": 11,
+          "ww": 4,
+          "ties": 237,
+          "pct": 4.4,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 12,
+          "ww": 2,
+          "ties": 238,
+          "pct": 4.8,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 16,
+          "ww": 2,
+          "ties": 234,
+          "pct": 6.3,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 15,
+          "ww": 3,
+          "ties": 234,
+          "pct": 6.0,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 14,
+          "ww": 5,
+          "ties": 233,
+          "pct": 5.6,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 15,
+          "ww": 3,
+          "ties": 234,
+          "pct": 6.0,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 14,
+          "ww": 4,
+          "ties": 234,
+          "pct": 5.6,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 11,
+          "ww": 5,
+          "ties": 236,
+          "pct": 4.4,
+          "total": 252
+        }
+      },
+      "TU Munich": {
+        "Dong A University": {
+          "sw": 10,
+          "ww": 5,
+          "ties": 237,
+          "pct": 4.0,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 14,
+          "ww": 5,
+          "ties": 233,
+          "pct": 5.6,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 14,
+          "ww": 1,
+          "ties": 237,
+          "pct": 5.6,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 13,
+          "ww": 1,
+          "ties": 238,
+          "pct": 5.2,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 12,
+          "ww": 3,
+          "ties": 237,
+          "pct": 4.8,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 13,
+          "ww": 2,
+          "ties": 237,
+          "pct": 5.2,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 13,
+          "ww": 3,
+          "ties": 236,
+          "pct": 5.2,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 10,
+          "ww": 5,
+          "ties": 237,
+          "pct": 4.0,
+          "total": 252
+        }
+      },
+      "Tsinghua University": {
+        "Dong A University": {
+          "sw": 10,
+          "ww": 4,
+          "ties": 238,
+          "pct": 4.0,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 12,
+          "ww": 5,
+          "ties": 235,
+          "pct": 4.8,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 15,
+          "ww": 4,
+          "ties": 233,
+          "pct": 6.0,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 14,
+          "ww": 3,
+          "ties": 235,
+          "pct": 5.6,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 14,
+          "ww": 6,
+          "ties": 232,
+          "pct": 5.6,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 13,
+          "ww": 4,
+          "ties": 235,
+          "pct": 5.2,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 13,
+          "ww": 4,
+          "ties": 235,
+          "pct": 5.2,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 10,
+          "ww": 4,
+          "ties": 238,
+          "pct": 4.0,
+          "total": 252
+        }
+      },
+      "University of Cambridge": {
+        "Dong A University": {
+          "sw": 9,
+          "ww": 4,
+          "ties": 239,
+          "pct": 3.6,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 11,
+          "ww": 4,
+          "ties": 237,
+          "pct": 4.4,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 14,
+          "ww": 2,
+          "ties": 236,
+          "pct": 5.6,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 15,
+          "ww": 3,
+          "ties": 234,
+          "pct": 6.0,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 13,
+          "ww": 4,
+          "ties": 235,
+          "pct": 5.2,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 12,
+          "ww": 2,
+          "ties": 238,
+          "pct": 4.8,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 12,
+          "ww": 3,
+          "ties": 237,
+          "pct": 4.8,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 11,
+          "ww": 5,
+          "ties": 236,
+          "pct": 4.4,
+          "total": 252
+        }
+      }
+    },
+    "llama3.1_8b_hf": {
+      "Carnegie Mellon University": {
+        "Dong A University": {
+          "sw": 11,
+          "ww": 10,
+          "ties": 231,
+          "pct": 4.4,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 11,
+          "ww": 5,
+          "ties": 236,
+          "pct": 4.4,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 18,
+          "ww": 8,
+          "ties": 226,
+          "pct": 7.1,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 17,
+          "ww": 7,
+          "ties": 228,
+          "pct": 6.7,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 14,
+          "ww": 6,
+          "ties": 232,
+          "pct": 5.6,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 18,
+          "ww": 11,
+          "ties": 223,
+          "pct": 7.1,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 15,
+          "ww": 11,
+          "ties": 226,
+          "pct": 6.0,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 10,
+          "ww": 7,
+          "ties": 235,
+          "pct": 4.0,
+          "total": 252
+        }
+      },
+      "ETH Zurich": {
+        "Dong A University": {
+          "sw": 9,
+          "ww": 8,
+          "ties": 235,
+          "pct": 3.6,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 17,
+          "ww": 10,
+          "ties": 225,
+          "pct": 6.7,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 18,
+          "ww": 8,
+          "ties": 226,
+          "pct": 7.1,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 16,
+          "ww": 7,
+          "ties": 229,
+          "pct": 6.3,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 13,
+          "ww": 8,
+          "ties": 231,
+          "pct": 5.2,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 13,
+          "ww": 7,
+          "ties": 232,
+          "pct": 5.2,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 12,
+          "ww": 9,
+          "ties": 231,
+          "pct": 4.8,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 9,
+          "ww": 10,
+          "ties": 233,
+          "pct": 3.6,
+          "total": 252
+        }
+      },
+      "MIT": {
+        "Dong A University": {
+          "sw": 12,
+          "ww": 6,
+          "ties": 234,
+          "pct": 4.8,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 18,
+          "ww": 8,
+          "ties": 226,
+          "pct": 7.1,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 20,
+          "ww": 8,
+          "ties": 224,
+          "pct": 7.9,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 17,
+          "ww": 7,
+          "ties": 228,
+          "pct": 6.7,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 17,
+          "ww": 10,
+          "ties": 225,
+          "pct": 6.7,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 18,
+          "ww": 6,
+          "ties": 228,
+          "pct": 7.1,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 16,
+          "ww": 9,
+          "ties": 227,
+          "pct": 6.3,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 11,
+          "ww": 9,
+          "ties": 232,
+          "pct": 4.4,
+          "total": 252
+        }
+      },
+      "Max Planck Institute for Intelligent Systems": {
+        "Dong A University": {
+          "sw": 11,
+          "ww": 9,
+          "ties": 232,
+          "pct": 4.4,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 16,
+          "ww": 11,
+          "ties": 225,
+          "pct": 6.3,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 22,
+          "ww": 12,
+          "ties": 218,
+          "pct": 8.7,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 17,
+          "ww": 9,
+          "ties": 226,
+          "pct": 6.7,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 14,
+          "ww": 7,
+          "ties": 231,
+          "pct": 5.6,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 19,
+          "ww": 10,
+          "ties": 223,
+          "pct": 7.5,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 18,
+          "ww": 15,
+          "ties": 219,
+          "pct": 7.1,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 13,
+          "ww": 13,
+          "ties": 226,
+          "pct": 5.2,
+          "total": 252
+        }
+      },
+      "Peking University": {
+        "Dong A University": {
+          "sw": 9,
+          "ww": 12,
+          "ties": 231,
+          "pct": 3.6,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 11,
+          "ww": 7,
+          "ties": 234,
+          "pct": 4.4,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 19,
+          "ww": 12,
+          "ties": 221,
+          "pct": 7.5,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 14,
+          "ww": 8,
+          "ties": 230,
+          "pct": 5.6,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 15,
+          "ww": 11,
+          "ties": 226,
+          "pct": 6.0,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 17,
+          "ww": 11,
+          "ties": 224,
+          "pct": 6.7,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 12,
+          "ww": 12,
+          "ties": 228,
+          "pct": 4.8,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 9,
+          "ww": 11,
+          "ties": 232,
+          "pct": 3.6,
+          "total": 252
+        }
+      },
+      "TU Munich": {
+        "Dong A University": {
+          "sw": 10,
+          "ww": 5,
+          "ties": 237,
+          "pct": 4.0,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 16,
+          "ww": 5,
+          "ties": 231,
+          "pct": 6.3,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 19,
+          "ww": 5,
+          "ties": 228,
+          "pct": 7.5,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 17,
+          "ww": 5,
+          "ties": 230,
+          "pct": 6.7,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 16,
+          "ww": 6,
+          "ties": 230,
+          "pct": 6.3,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 18,
+          "ww": 6,
+          "ties": 228,
+          "pct": 7.1,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 13,
+          "ww": 6,
+          "ties": 233,
+          "pct": 5.2,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 10,
+          "ww": 6,
+          "ties": 236,
+          "pct": 4.0,
+          "total": 252
+        }
+      },
+      "Tsinghua University": {
+        "Dong A University": {
+          "sw": 9,
+          "ww": 10,
+          "ties": 233,
+          "pct": 3.6,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 12,
+          "ww": 9,
+          "ties": 231,
+          "pct": 4.8,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 18,
+          "ww": 11,
+          "ties": 223,
+          "pct": 7.1,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 16,
+          "ww": 9,
+          "ties": 227,
+          "pct": 6.3,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 12,
+          "ww": 7,
+          "ties": 233,
+          "pct": 4.8,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 14,
+          "ww": 10,
+          "ties": 228,
+          "pct": 5.6,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 14,
+          "ww": 13,
+          "ties": 225,
+          "pct": 5.6,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 8,
+          "ww": 11,
+          "ties": 233,
+          "pct": 3.2,
+          "total": 252
+        }
+      },
+      "University of Cambridge": {
+        "Dong A University": {
+          "sw": 10,
+          "ww": 15,
+          "ties": 227,
+          "pct": 4.0,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 12,
+          "ww": 10,
+          "ties": 230,
+          "pct": 4.8,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 16,
+          "ww": 13,
+          "ties": 223,
+          "pct": 6.3,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 15,
+          "ww": 14,
+          "ties": 223,
+          "pct": 6.0,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 15,
+          "ww": 15,
+          "ties": 222,
+          "pct": 6.0,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 17,
+          "ww": 14,
+          "ties": 221,
+          "pct": 6.7,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 14,
+          "ww": 17,
+          "ties": 221,
+          "pct": 5.6,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 9,
+          "ww": 16,
+          "ties": 227,
+          "pct": 3.6,
+          "total": 252
+        }
+      }
+    },
+    "mistral-small_22b_hf": {
+      "Carnegie Mellon University": {
+        "Dong A University": {
+          "sw": 50,
+          "ww": 12,
+          "ties": 190,
+          "pct": 19.8,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 63,
+          "ww": 18,
+          "ties": 171,
+          "pct": 25.0,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 73,
+          "ww": 10,
+          "ties": 169,
+          "pct": 29.0,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 49,
+          "ww": 11,
+          "ties": 192,
+          "pct": 19.4,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 58,
+          "ww": 15,
+          "ties": 179,
+          "pct": 23.0,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 78,
+          "ww": 10,
+          "ties": 164,
+          "pct": 31.0,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 58,
+          "ww": 14,
+          "ties": 180,
+          "pct": 23.0,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 41,
+          "ww": 11,
+          "ties": 200,
+          "pct": 16.3,
+          "total": 252
+        }
+      },
+      "ETH Zurich": {
+        "Dong A University": {
+          "sw": 39,
+          "ww": 21,
+          "ties": 192,
+          "pct": 15.5,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 49,
+          "ww": 20,
+          "ties": 183,
+          "pct": 19.4,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 65,
+          "ww": 14,
+          "ties": 173,
+          "pct": 25.8,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 48,
+          "ww": 22,
+          "ties": 182,
+          "pct": 19.0,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 50,
+          "ww": 23,
+          "ties": 179,
+          "pct": 19.8,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 63,
+          "ww": 13,
+          "ties": 176,
+          "pct": 25.0,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 50,
+          "ww": 17,
+          "ties": 185,
+          "pct": 19.8,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 38,
+          "ww": 24,
+          "ties": 190,
+          "pct": 15.1,
+          "total": 252
+        }
+      },
+      "MIT": {
+        "Dong A University": {
+          "sw": 51,
+          "ww": 17,
+          "ties": 184,
+          "pct": 20.2,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 60,
+          "ww": 18,
+          "ties": 174,
+          "pct": 23.8,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 70,
+          "ww": 9,
+          "ties": 173,
+          "pct": 27.8,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 53,
+          "ww": 14,
+          "ties": 185,
+          "pct": 21.0,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 55,
+          "ww": 15,
+          "ties": 182,
+          "pct": 21.8,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 73,
+          "ww": 10,
+          "ties": 169,
+          "pct": 29.0,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 58,
+          "ww": 14,
+          "ties": 180,
+          "pct": 23.0,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 49,
+          "ww": 20,
+          "ties": 183,
+          "pct": 19.4,
+          "total": 252
+        }
+      },
+      "Max Planck Institute for Intelligent Systems": {
+        "Dong A University": {
+          "sw": 48,
+          "ww": 19,
+          "ties": 185,
+          "pct": 19.0,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 60,
+          "ww": 21,
+          "ties": 171,
+          "pct": 23.8,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 70,
+          "ww": 13,
+          "ties": 169,
+          "pct": 27.8,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 54,
+          "ww": 23,
+          "ties": 175,
+          "pct": 21.4,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 54,
+          "ww": 15,
+          "ties": 183,
+          "pct": 21.4,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 75,
+          "ww": 10,
+          "ties": 167,
+          "pct": 29.8,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 59,
+          "ww": 18,
+          "ties": 175,
+          "pct": 23.4,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 46,
+          "ww": 24,
+          "ties": 182,
+          "pct": 18.3,
+          "total": 252
+        }
+      },
+      "Peking University": {
+        "Dong A University": {
+          "sw": 43,
+          "ww": 27,
+          "ties": 182,
+          "pct": 17.1,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 49,
+          "ww": 19,
+          "ties": 184,
+          "pct": 19.4,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 61,
+          "ww": 14,
+          "ties": 177,
+          "pct": 24.2,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 44,
+          "ww": 21,
+          "ties": 187,
+          "pct": 17.5,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 50,
+          "ww": 24,
+          "ties": 178,
+          "pct": 19.8,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 66,
+          "ww": 16,
+          "ties": 170,
+          "pct": 26.2,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 48,
+          "ww": 18,
+          "ties": 186,
+          "pct": 19.0,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 38,
+          "ww": 28,
+          "ties": 186,
+          "pct": 15.1,
+          "total": 252
+        }
+      },
+      "TU Munich": {
+        "Dong A University": {
+          "sw": 37,
+          "ww": 16,
+          "ties": 199,
+          "pct": 14.7,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 50,
+          "ww": 23,
+          "ties": 179,
+          "pct": 19.8,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 62,
+          "ww": 16,
+          "ties": 174,
+          "pct": 24.6,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 40,
+          "ww": 20,
+          "ties": 192,
+          "pct": 15.9,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 51,
+          "ww": 24,
+          "ties": 177,
+          "pct": 20.2,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 62,
+          "ww": 13,
+          "ties": 177,
+          "pct": 24.6,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 47,
+          "ww": 17,
+          "ties": 188,
+          "pct": 18.7,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 31,
+          "ww": 22,
+          "ties": 199,
+          "pct": 12.3,
+          "total": 252
+        }
+      },
+      "Tsinghua University": {
+        "Dong A University": {
+          "sw": 35,
+          "ww": 22,
+          "ties": 195,
+          "pct": 13.9,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 43,
+          "ww": 24,
+          "ties": 185,
+          "pct": 17.1,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 57,
+          "ww": 16,
+          "ties": 179,
+          "pct": 22.6,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 39,
+          "ww": 24,
+          "ties": 189,
+          "pct": 15.5,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 45,
+          "ww": 28,
+          "ties": 179,
+          "pct": 17.9,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 58,
+          "ww": 13,
+          "ties": 181,
+          "pct": 23.0,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 38,
+          "ww": 19,
+          "ties": 195,
+          "pct": 15.1,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 30,
+          "ww": 24,
+          "ties": 198,
+          "pct": 11.9,
+          "total": 252
+        }
+      },
+      "University of Cambridge": {
+        "Dong A University": {
+          "sw": 52,
+          "ww": 16,
+          "ties": 184,
+          "pct": 20.6,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 59,
+          "ww": 18,
+          "ties": 175,
+          "pct": 23.4,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 72,
+          "ww": 8,
+          "ties": 172,
+          "pct": 28.6,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 57,
+          "ww": 14,
+          "ties": 181,
+          "pct": 22.6,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 60,
+          "ww": 14,
+          "ties": 178,
+          "pct": 23.8,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 77,
+          "ww": 12,
+          "ties": 163,
+          "pct": 30.6,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 58,
+          "ww": 13,
+          "ties": 181,
+          "pct": 23.0,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 47,
+          "ww": 12,
+          "ties": 193,
+          "pct": 18.7,
+          "total": 252
+        }
+      }
+    },
+    "mistral_8b_hf": {
+      "Carnegie Mellon University": {
+        "Dong A University": {
+          "sw": 20,
+          "ww": 7,
+          "ties": 225,
+          "pct": 7.9,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 15,
+          "ww": 6,
+          "ties": 231,
+          "pct": 6.0,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 27,
+          "ww": 6,
+          "ties": 219,
+          "pct": 10.7,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 20,
+          "ww": 5,
+          "ties": 227,
+          "pct": 7.9,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 13,
+          "ww": 10,
+          "ties": 229,
+          "pct": 5.2,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 22,
+          "ww": 2,
+          "ties": 228,
+          "pct": 8.7,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 17,
+          "ww": 5,
+          "ties": 230,
+          "pct": 6.7,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 15,
+          "ww": 7,
+          "ties": 230,
+          "pct": 6.0,
+          "total": 252
+        }
+      },
+      "ETH Zurich": {
+        "Dong A University": {
+          "sw": 19,
+          "ww": 3,
+          "ties": 230,
+          "pct": 7.5,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 18,
+          "ww": 5,
+          "ties": 229,
+          "pct": 7.1,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 25,
+          "ww": 4,
+          "ties": 223,
+          "pct": 9.9,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 23,
+          "ww": 6,
+          "ties": 223,
+          "pct": 9.1,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 17,
+          "ww": 10,
+          "ties": 225,
+          "pct": 6.7,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 23,
+          "ww": 3,
+          "ties": 226,
+          "pct": 9.1,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 17,
+          "ww": 4,
+          "ties": 231,
+          "pct": 6.7,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 18,
+          "ww": 8,
+          "ties": 226,
+          "pct": 7.1,
+          "total": 252
+        }
+      },
+      "MIT": {
+        "Dong A University": {
+          "sw": 22,
+          "ww": 10,
+          "ties": 220,
+          "pct": 8.7,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 20,
+          "ww": 10,
+          "ties": 222,
+          "pct": 7.9,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 32,
+          "ww": 10,
+          "ties": 210,
+          "pct": 12.7,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 22,
+          "ww": 6,
+          "ties": 224,
+          "pct": 8.7,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 17,
+          "ww": 12,
+          "ties": 223,
+          "pct": 6.7,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 24,
+          "ww": 3,
+          "ties": 225,
+          "pct": 9.5,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 19,
+          "ww": 7,
+          "ties": 226,
+          "pct": 7.5,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 16,
+          "ww": 9,
+          "ties": 227,
+          "pct": 6.3,
+          "total": 252
+        }
+      },
+      "Max Planck Institute for Intelligent Systems": {
+        "Dong A University": {
+          "sw": 20,
+          "ww": 5,
+          "ties": 227,
+          "pct": 7.9,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 18,
+          "ww": 5,
+          "ties": 229,
+          "pct": 7.1,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 27,
+          "ww": 4,
+          "ties": 221,
+          "pct": 10.7,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 20,
+          "ww": 2,
+          "ties": 230,
+          "pct": 7.9,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 13,
+          "ww": 6,
+          "ties": 233,
+          "pct": 5.2,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 25,
+          "ww": 3,
+          "ties": 224,
+          "pct": 9.9,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 19,
+          "ww": 4,
+          "ties": 229,
+          "pct": 7.5,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 17,
+          "ww": 6,
+          "ties": 229,
+          "pct": 6.7,
+          "total": 252
+        }
+      },
+      "Peking University": {
+        "Dong A University": {
+          "sw": 16,
+          "ww": 9,
+          "ties": 227,
+          "pct": 6.3,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 11,
+          "ww": 6,
+          "ties": 235,
+          "pct": 4.4,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 25,
+          "ww": 10,
+          "ties": 217,
+          "pct": 9.9,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 17,
+          "ww": 8,
+          "ties": 227,
+          "pct": 6.7,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 13,
+          "ww": 15,
+          "ties": 224,
+          "pct": 5.2,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 19,
+          "ww": 4,
+          "ties": 229,
+          "pct": 7.5,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 14,
+          "ww": 9,
+          "ties": 229,
+          "pct": 5.6,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 11,
+          "ww": 11,
+          "ties": 230,
+          "pct": 4.4,
+          "total": 252
+        }
+      },
+      "TU Munich": {
+        "Dong A University": {
+          "sw": 17,
+          "ww": 6,
+          "ties": 229,
+          "pct": 6.7,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 14,
+          "ww": 5,
+          "ties": 233,
+          "pct": 5.6,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 25,
+          "ww": 5,
+          "ties": 222,
+          "pct": 9.9,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 17,
+          "ww": 4,
+          "ties": 231,
+          "pct": 6.7,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 10,
+          "ww": 7,
+          "ties": 235,
+          "pct": 4.0,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 20,
+          "ww": 2,
+          "ties": 230,
+          "pct": 7.9,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 14,
+          "ww": 2,
+          "ties": 236,
+          "pct": 5.6,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 11,
+          "ww": 6,
+          "ties": 235,
+          "pct": 4.4,
+          "total": 252
+        }
+      },
+      "Tsinghua University": {
+        "Dong A University": {
+          "sw": 21,
+          "ww": 6,
+          "ties": 225,
+          "pct": 8.3,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 18,
+          "ww": 5,
+          "ties": 229,
+          "pct": 7.1,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 29,
+          "ww": 7,
+          "ties": 216,
+          "pct": 11.5,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 21,
+          "ww": 5,
+          "ties": 226,
+          "pct": 8.3,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 15,
+          "ww": 8,
+          "ties": 229,
+          "pct": 6.0,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 23,
+          "ww": 4,
+          "ties": 225,
+          "pct": 9.1,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 19,
+          "ww": 5,
+          "ties": 228,
+          "pct": 7.5,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 15,
+          "ww": 6,
+          "ties": 231,
+          "pct": 6.0,
+          "total": 252
+        }
+      },
+      "University of Cambridge": {
+        "Dong A University": {
+          "sw": 18,
+          "ww": 5,
+          "ties": 229,
+          "pct": 7.1,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 15,
+          "ww": 4,
+          "ties": 233,
+          "pct": 6.0,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 24,
+          "ww": 5,
+          "ties": 223,
+          "pct": 9.5,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 19,
+          "ww": 3,
+          "ties": 230,
+          "pct": 7.5,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 13,
+          "ww": 7,
+          "ties": 232,
+          "pct": 5.2,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 22,
+          "ww": 3,
+          "ties": 227,
+          "pct": 8.7,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 16,
+          "ww": 5,
+          "ties": 231,
+          "pct": 6.3,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 14,
+          "ww": 5,
+          "ties": 233,
+          "pct": 5.6,
+          "total": 252
+        }
+      }
+    },
+    "qwq_hf": {
+      "Carnegie Mellon University": {
+        "Dong A University": {
+          "sw": 66,
+          "ww": 33,
+          "ties": 153,
+          "pct": 26.2,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 88,
+          "ww": 29,
+          "ties": 135,
+          "pct": 34.9,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 87,
+          "ww": 32,
+          "ties": 133,
+          "pct": 34.5,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 91,
+          "ww": 25,
+          "ties": 136,
+          "pct": 36.1,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 69,
+          "ww": 36,
+          "ties": 147,
+          "pct": 27.4,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 89,
+          "ww": 28,
+          "ties": 135,
+          "pct": 35.3,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 77,
+          "ww": 37,
+          "ties": 138,
+          "pct": 30.6,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 77,
+          "ww": 51,
+          "ties": 124,
+          "pct": 30.6,
+          "total": 252
+        }
+      },
+      "ETH Zurich": {
+        "Dong A University": {
+          "sw": 68,
+          "ww": 31,
+          "ties": 153,
+          "pct": 27.0,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 90,
+          "ww": 38,
+          "ties": 124,
+          "pct": 35.7,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 83,
+          "ww": 30,
+          "ties": 139,
+          "pct": 32.9,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 88,
+          "ww": 23,
+          "ties": 141,
+          "pct": 34.9,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 71,
+          "ww": 34,
+          "ties": 147,
+          "pct": 28.2,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 92,
+          "ww": 31,
+          "ties": 129,
+          "pct": 36.5,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 84,
+          "ww": 37,
+          "ties": 131,
+          "pct": 33.3,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 72,
+          "ww": 41,
+          "ties": 139,
+          "pct": 28.6,
+          "total": 252
+        }
+      },
+      "MIT": {
+        "Dong A University": {
+          "sw": 81,
+          "ww": 33,
+          "ties": 138,
+          "pct": 32.1,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 96,
+          "ww": 30,
+          "ties": 126,
+          "pct": 38.1,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 88,
+          "ww": 23,
+          "ties": 141,
+          "pct": 34.9,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 108,
+          "ww": 32,
+          "ties": 112,
+          "pct": 42.9,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 87,
+          "ww": 37,
+          "ties": 128,
+          "pct": 34.5,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 102,
+          "ww": 24,
+          "ties": 126,
+          "pct": 40.5,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 89,
+          "ww": 31,
+          "ties": 132,
+          "pct": 35.3,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 82,
+          "ww": 39,
+          "ties": 131,
+          "pct": 32.5,
+          "total": 252
+        }
+      },
+      "Max Planck Institute for Intelligent Systems": {
+        "Dong A University": {
+          "sw": 95,
+          "ww": 29,
+          "ties": 128,
+          "pct": 37.7,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 103,
+          "ww": 22,
+          "ties": 127,
+          "pct": 40.9,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 101,
+          "ww": 22,
+          "ties": 129,
+          "pct": 40.1,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 111,
+          "ww": 22,
+          "ties": 119,
+          "pct": 44.0,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 89,
+          "ww": 26,
+          "ties": 137,
+          "pct": 35.3,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 117,
+          "ww": 26,
+          "ties": 109,
+          "pct": 46.4,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 93,
+          "ww": 27,
+          "ties": 132,
+          "pct": 36.9,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 81,
+          "ww": 28,
+          "ties": 143,
+          "pct": 32.1,
+          "total": 252
+        }
+      },
+      "Peking University": {
+        "Dong A University": {
+          "sw": 64,
+          "ww": 34,
+          "ties": 154,
+          "pct": 25.4,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 80,
+          "ww": 34,
+          "ties": 138,
+          "pct": 31.7,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 82,
+          "ww": 38,
+          "ties": 132,
+          "pct": 32.5,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 78,
+          "ww": 28,
+          "ties": 146,
+          "pct": 31.0,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 62,
+          "ww": 39,
+          "ties": 151,
+          "pct": 24.6,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 85,
+          "ww": 28,
+          "ties": 139,
+          "pct": 33.7,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 79,
+          "ww": 39,
+          "ties": 134,
+          "pct": 31.3,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 61,
+          "ww": 40,
+          "ties": 151,
+          "pct": 24.2,
+          "total": 252
+        }
+      },
+      "TU Munich": {
+        "Dong A University": {
+          "sw": 80,
+          "ww": 36,
+          "ties": 136,
+          "pct": 31.7,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 91,
+          "ww": 29,
+          "ties": 132,
+          "pct": 36.1,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 90,
+          "ww": 32,
+          "ties": 130,
+          "pct": 35.7,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 95,
+          "ww": 27,
+          "ties": 130,
+          "pct": 37.7,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 75,
+          "ww": 33,
+          "ties": 144,
+          "pct": 29.8,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 97,
+          "ww": 28,
+          "ties": 127,
+          "pct": 38.5,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 85,
+          "ww": 35,
+          "ties": 132,
+          "pct": 33.7,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 73,
+          "ww": 36,
+          "ties": 143,
+          "pct": 29.0,
+          "total": 252
+        }
+      },
+      "Tsinghua University": {
+        "Dong A University": {
+          "sw": 77,
+          "ww": 35,
+          "ties": 140,
+          "pct": 30.6,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 85,
+          "ww": 28,
+          "ties": 139,
+          "pct": 33.7,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 88,
+          "ww": 28,
+          "ties": 136,
+          "pct": 34.9,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 97,
+          "ww": 29,
+          "ties": 126,
+          "pct": 38.5,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 75,
+          "ww": 36,
+          "ties": 141,
+          "pct": 29.8,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 99,
+          "ww": 30,
+          "ties": 123,
+          "pct": 39.3,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 86,
+          "ww": 34,
+          "ties": 132,
+          "pct": 34.1,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 76,
+          "ww": 43,
+          "ties": 133,
+          "pct": 30.2,
+          "total": 252
+        }
+      },
+      "University of Cambridge": {
+        "Dong A University": {
+          "sw": 66,
+          "ww": 41,
+          "ties": 145,
+          "pct": 26.2,
+          "total": 252
+        },
+        "Henan University": {
+          "sw": 88,
+          "ww": 42,
+          "ties": 122,
+          "pct": 34.9,
+          "total": 252
+        },
+        "Midlands State University": {
+          "sw": 86,
+          "ww": 41,
+          "ties": 125,
+          "pct": 34.1,
+          "total": 252
+        },
+        "Savannah State University": {
+          "sw": 91,
+          "ww": 35,
+          "ties": 126,
+          "pct": 36.1,
+          "total": 252
+        },
+        "Texas A&M University\u2013Kingsville": {
+          "sw": 72,
+          "ww": 39,
+          "ties": 141,
+          "pct": 28.6,
+          "total": 252
+        },
+        "University of Gondar": {
+          "sw": 91,
+          "ww": 36,
+          "ties": 125,
+          "pct": 36.1,
+          "total": 252
+        },
+        "University of Lagos": {
+          "sw": 84,
+          "ww": 44,
+          "ties": 124,
+          "pct": 33.3,
+          "total": 252
+        },
+        "University of Rostock": {
+          "sw": 65,
+          "ww": 42,
+          "ties": 145,
+          "pct": 25.8,
+          "total": 252
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+# Large/private files
+*.pdf
+*.zip
+node_modules/
+
+# Old data files (now replaced by bias_data.json)
+data/affiliation_dimension.json
+data/affiliation_rankings.json
+data/downloads.json
+data/gender_dimension.json
+data/main_table.json
+data/publication_history_dimension.json
+data/seniority_dimension.json
+data/site_config.json
+data/site_summary.json
